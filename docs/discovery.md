@@ -67,9 +67,9 @@ Approved games are not replaced silently. A failed approved game appears in `fai
 
 ## Preview lifecycle
 
-Ready previews are held in process memory for 30 minutes, with at most 100 records. Expired records are pruned and oldest records are evicted at capacity. A preview is claimed atomically during collection, released after an unexpected failure, and consumed after a normal result. It cannot be collected concurrently or reused.
+Ready previews expire after 30 minutes. When `KV_REST_API_URL` and `KV_REST_API_TOKEN` are configured, Upstash Redis shares previews across serverless instances. Atomic Lua transitions claim a preview during collection, release it after an unexpected failure, and consume it after a normal result. State changes preserve the original expiry, and concurrent claims or reuse are rejected.
 
-This memory store is suitable for the current single-process demo. Restarts remove previews, and multi-instance deployments require sticky routing or a future shared store. Full game statistics are never stored in the preview.
+Without Redis configuration, the single-process development fallback holds at most 100 previews in memory and evicts expired or oldest records. Use Redis for Vercel deployments; memory previews disappear on restart and cannot be shared across instances. Full game statistics are never stored in either preview backend.
 
 Lifecycle errors use `PREVIEW_NOT_FOUND` (404), `PREVIEW_EXPIRED` (410), `PREVIEW_BUSY` or `PREVIEW_CONSUMED` (409), and `INVALID_SELECTION` (400). AI and discovery-provider failures return sanitized 503 responses. Every response uses `Cache-Control: no-store`.
 

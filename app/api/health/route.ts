@@ -2,6 +2,7 @@ import { NextResponse } from 'next/server';
 
 export async function GET() {
   const demoMode = process.env.DEMO_MODE === 'true';
+  const sharedPreviews = Boolean(process.env.KV_REST_API_URL && process.env.KV_REST_API_TOKEN);
 
   return NextResponse.json({
     ok: true,
@@ -14,9 +15,9 @@ export async function GET() {
       grokConfigured: Boolean(process.env.XAI_API_KEY),
       discovery: {
         flow: 'preview_then_approve',
-        pendingPreviewStorage: 'memory',
+        pendingPreviewStorage: sharedPreviews ? 'redis' : 'memory',
         previewTtlMinutes: 30,
-        maxPendingPreviews: 100,
+        maxPendingPreviews: sharedPreviews ? null : 100,
       },
     },
     corpus: { loaded: false, count: 0, version: 'none', upcomingCount: 0 },

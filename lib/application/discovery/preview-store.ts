@@ -1,5 +1,6 @@
 import 'server-only';
 import { randomUUID } from 'node:crypto';
+import { RedisPreviewStore } from '@/lib/infrastructure/redis/preview-store';
 import { DiscoveryError, type DescriptionValidation, type PreviewCandidate } from '@/lib/domain/schemas';
 
 export type PreviewRecord = {
@@ -11,6 +12,15 @@ export type PreviewRecord = {
   expiresAt: number;
   state: 'ready' | 'collecting' | 'consumed';
 };
+
+type MaybePromise<T> = T | Promise<T>;
+export interface PreviewRepository {
+  create(input: Pick<PreviewRecord, 'query' | 'validation' | 'candidates'>): MaybePromise<PreviewRecord>;
+  get(id: string): MaybePromise<PreviewRecord>;
+  claim(id: string): MaybePromise<PreviewRecord>;
+  complete(id: string): MaybePromise<void>;
+  release(id: string): MaybePromise<void>;
+}
 
 export class PreviewStore {
   private records = new Map<string, PreviewRecord>();
@@ -59,5 +69,9 @@ export class PreviewStore {
   }
 }
 
-declare global { var __discoveryPreviewStore: PreviewStore | undefined; }
-export const previewStore = globalThis.__discoveryPreviewStore ??= new PreviewStore();
+declare global { var __discoveryPreviewStore: PreviewRepository | undefined; }
+export const previewStore = globalThis.__discoveryPreviewStore ??= (
+  process.env.KV_REST_API_URL && process.env.KV_REST_API_TOKEN
+    ? new RedisPreviewStore(process.env.KV_REST_API_URL, process.env.KV_REST_API_TOKEN)
+    : new PreviewStore()
+);

@@ -40,7 +40,7 @@ describe('discovery preview', () => {
     expect(result.candidates).toEqual([{ steamAppId: 100, igdbId: 1, name: 'Haunted Team',
       semanticScore: 0.87, reason: 'Co-op horror match', matchedTags: ['Horror', 'Multiplayer'] }]);
     expect(JSON.stringify(result.candidates)).not.toContain('private candidate description');
-    expect(deps.store.get(result.previewId).candidates).toEqual(result.candidates);
+    expect((await deps.store.get(result.previewId)).candidates).toEqual(result.candidates);
   });
 
   it('restores a stated genre before searching for candidates', async () => {

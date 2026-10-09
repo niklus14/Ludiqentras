@@ -2,7 +2,7 @@ import 'server-only';
 import { findPreviewCandidates } from '@/lib/infrastructure/igdb/find-candidates';
 import { grokModelId, rankPreviewCandidates, validateDescription } from '@/lib/infrastructure/grok/discovery';
 import { fallbackValidateDescription, fallbackRankCandidates } from './fallback-discovery';
-import { previewStore, type PreviewStore } from './preview-store';
+import { previewStore, type PreviewRepository } from './preview-store';
 import { rankingDropIssues, validatePreviewRanking, type RankingOutcome } from './selection';
 import { resolveSteamIds } from '@/lib/infrastructure/igdb/steam-identities';
 import { DiscoverInput, type PreviewCandidate } from '@/lib/domain/schemas';
@@ -17,7 +17,7 @@ const defaults = {
   validate: validateDescription, candidates: findPreviewCandidates,
   rank: rankPreviewCandidates, resolve: resolveSteamIds, store: previewStore,
 };
-export type PreviewProviders = Omit<typeof defaults, 'store'> & { store: PreviewStore };
+export type PreviewProviders = Omit<typeof defaults, 'store'> & { store: PreviewRepository };
 
 /** Try Grok, fall back to keyword extraction */
 async function validateWithFallback(query: string, clarifications: { question: string; answer: string }[], validate: ValidateFn) {
@@ -79,7 +79,7 @@ export async function previewGames(input: unknown, deps: PreviewProviders = defa
       returnedCount: 0, complete: false,
       issues: ['No matching game with one exact Steam identity was available.', ...dropIssues] },
   };
-  const record = deps.store.create({ query: request.query, validation, candidates: previewCandidates });
+  const record = await deps.store.create({ query: request.query, validation, candidates: previewCandidates });
   return {
     status: 'ready_for_approval' as const, previewId: record.id,
     expiresAt: new Date(record.expiresAt).toISOString(), query: request.query, validation,

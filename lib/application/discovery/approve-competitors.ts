@@ -1,15 +1,15 @@
 import 'server-only';
 import { collectGames } from '@/lib/infrastructure/collector/collect-games';
 import type { CollectedGame, CollectionFailure } from '@/lib/infrastructure/collector/types';
-import { previewStore, type PreviewStore } from './preview-store';
+import { previewStore, type PreviewRepository } from './preview-store';
 import { ApprovalInput, DiscoveryError, type PreviewCandidate } from '@/lib/domain/schemas';
 
 const defaults = { store: previewStore, collect: collectGames };
-export type ApprovalProviders = Omit<typeof defaults, 'store'> & { store: PreviewStore };
+export type ApprovalProviders = Omit<typeof defaults, 'store'> & { store: PreviewRepository };
 
 export async function approvePreview(input: unknown, deps: ApprovalProviders = defaults) {
   const approval = ApprovalInput.parse(input);
-  const record = deps.store.claim(approval.previewId);
+  const record = await deps.store.claim(approval.previewId);
   try {
     const selectedIds = 'approveAll' in approval ? record.candidates.map(candidate => candidate.steamAppId) : approval.selectedSteamAppIds;
     if (new Set(selectedIds).size !== selectedIds.length) throw new DiscoveryError('INVALID_SELECTION', 'Selected Steam AppIDs must be unique');
@@ -31,12 +31,13 @@ export async function approvePreview(input: unknown, deps: ApprovalProviders = d
         matchedTags: candidate.matchedTags, candidateIgdbId: candidate.igdbId,
         semanticScore: candidate.semanticScore } });
     }
-    deps.store.complete(record.id);
+    await deps.store.complete(record.id);
     return { query: record.query, validation: record.validation, games, failures,
       approval: { previewId: record.id, approvedCount: selected.length, returnedCount: games.length,
         complete: games.length === selected.length } };
   } catch (error) {
-    deps.store.release(record.id);
+    try { await deps.store.release(record.id); }
+    catch { /* Keep the original failure; Redis still expires the claim. */ }
     throw error;
   }
 }
