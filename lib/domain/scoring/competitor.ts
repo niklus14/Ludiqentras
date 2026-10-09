@@ -1,0 +1,22 @@
+import type { GameConcept, NormalizedGame, ScoredCompetitor } from '@/lib/domain/types';
+import { scoreSimilarity } from './similarity';
+
+export function scoreCompetitor(
+  concept: GameConcept,
+  game: NormalizedGame,
+  semanticScore: number | null,
+  rationalePrefix = '',
+  userAdded = false,
+): ScoredCompetitor {
+  const similarity = scoreSimilarity(concept, game, semanticScore);
+  return {
+    game,
+    similarity: {
+      score: similarity.score,
+      components: similarity.components,
+      rationale: [rationalePrefix.trim(), similarity.rationale].filter(Boolean).join(' '),
+    },
+    competitiveThreat: Math.round(similarity.score * 100),
+    userAdded,
+  };
+}

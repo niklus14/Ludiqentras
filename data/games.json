@@ -1,0 +1,1196 @@
+{
+  "meta": {
+    "corpusVersion": "demo-1.0",
+    "count": 12,
+    "embeddingModel": "none-tag-only",
+    "dims": 16,
+    "enrichedCount": 12
+  },
+  "games": [
+    {
+      "identity": {
+        "steamAppId": 1966720,
+        "igdbId": null,
+        "name": "Lethal Company",
+        "steamUrl": "https://store.steampowered.com/app/1966720"
+      },
+      "metadata": {
+        "summary": "A co-op horror game about scavenging at abandoned moons to sell scrap to the Company.",
+        "genres": [
+          "Horror",
+          "Action"
+        ],
+        "themes": [
+          "Sci-Fi",
+          "Dark"
+        ],
+        "tags": [
+          "Co-op",
+          "Horror",
+          "Online Co-Op",
+          "Multiplayer",
+          "Indie",
+          "Atmospheric"
+        ],
+        "keywords": [
+          "scavenging",
+          "co-op",
+          "horror",
+          "monsters",
+          "sci-fi"
+        ],
+        "gameModes": [
+          "Online Co-op"
+        ],
+        "perspectives": [
+          "First person"
+        ],
+        "platforms": [
+          "PC"
+        ],
+        "developers": [
+          "Zeekerss"
+        ],
+        "publishers": [
+          "Zeekerss"
+        ]
+      },
+      "release": {
+        "date": "2023-10-23",
+        "isReleased": true,
+        "isEarlyAccess": true
+      },
+      "commercial": {
+        "priceUsd": {
+          "value": 9.99,
+          "source": "steam",
+          "estimated": false
+        },
+        "estimatedCopiesSold": {
+          "value": 6800000,
+          "source": "gamalytic",
+          "estimated": true
+        },
+        "estimatedRevenueUsd": {
+          "value": 68000000,
+          "source": "gamalytic",
+          "estimated": true
+        }
+      },
+      "reviews": {
+        "total": {
+          "value": 186420,
+          "source": "steam",
+          "estimated": false
+        },
+        "positive": {
+          "value": 178965,
+          "source": "steam",
+          "estimated": false
+        },
+        "negative": {
+          "value": 7455,
+          "source": "steam",
+          "estimated": false
+        },
+        "positiveRatio": {
+          "value": 0.96,
+          "source": "steam",
+          "estimated": false
+        },
+        "sentimentSummary": {
+          "value": "Overwhelmingly Positive",
+          "source": "steam",
+          "estimated": false
+        }
+      }
+    },
+    {
+      "identity": {
+        "steamAppId": 602960,
+        "igdbId": null,
+        "name": "Barotrauma",
+        "steamUrl": "https://store.steampowered.com/app/602960"
+      },
+      "metadata": {
+        "summary": "A 2D co-op submarine simulator set on Jupiter's moon Europa. Manage your crew and survive.",
+        "genres": [
+          "Simulation",
+          "RPG"
+        ],
+        "themes": [
+          "Sci-Fi",
+          "Underwater"
+        ],
+        "tags": [
+          "Co-op",
+          "Submarine",
+          "Survival",
+          "Horror",
+          "Online Co-Op",
+          "2D"
+        ],
+        "keywords": [
+          "submarine",
+          "co-op",
+          "survival",
+          "underwater",
+          "europa"
+        ],
+        "gameModes": [
+          "Online Co-op"
+        ],
+        "perspectives": [
+          "Side view"
+        ],
+        "platforms": [
+          "PC"
+        ],
+        "developers": [
+          "FakeFish",
+          "Undertow Games"
+        ],
+        "publishers": [
+          "Daedalic Entertainment"
+        ]
+      },
+      "release": {
+        "date": "2023-03-13",
+        "isReleased": true,
+        "isEarlyAccess": false
+      },
+      "commercial": {
+        "priceUsd": {
+          "value": 29.99,
+          "source": "steam",
+          "estimated": false
+        },
+        "estimatedCopiesSold": {
+          "value": 940000,
+          "source": "gamalytic",
+          "estimated": true
+        },
+        "estimatedRevenueUsd": {
+          "value": 28000000,
+          "source": "gamalytic",
+          "estimated": true
+        }
+      },
+      "reviews": {
+        "total": {
+          "value": 42870,
+          "source": "steam",
+          "estimated": false
+        },
+        "positive": {
+          "value": 37726,
+          "source": "steam",
+          "estimated": false
+        },
+        "negative": {
+          "value": 5144,
+          "source": "steam",
+          "estimated": false
+        },
+        "positiveRatio": {
+          "value": 0.88,
+          "source": "steam",
+          "estimated": false
+        },
+        "sentimentSummary": {
+          "value": "Very Positive",
+          "source": "steam",
+          "estimated": false
+        }
+      }
+    },
+    {
+      "identity": {
+        "steamAppId": 739630,
+        "igdbId": null,
+        "name": "Phasmophobia",
+        "steamUrl": "https://store.steampowered.com/app/739630"
+      },
+      "metadata": {
+        "summary": "4-player online co-op ghost hunting game. Use ghost hunting equipment to find paranormal activity.",
+        "genres": [
+          "Horror",
+          "Adventure"
+        ],
+        "themes": [
+          "Supernatural",
+          "Dark"
+        ],
+        "tags": [
+          "Horror",
+          "Co-op",
+          "Online Co-Op",
+          "Psychological Horror",
+          "Multiplayer"
+        ],
+        "keywords": [
+          "ghost",
+          "hunting",
+          "co-op",
+          "paranormal",
+          "investigation"
+        ],
+        "gameModes": [
+          "Online Co-op"
+        ],
+        "perspectives": [
+          "First person"
+        ],
+        "platforms": [
+          "PC"
+        ],
+        "developers": [
+          "Kinetic Games"
+        ],
+        "publishers": [
+          "Kinetic Games"
+        ]
+      },
+      "release": {
+        "date": "2020-09-18",
+        "isReleased": true,
+        "isEarlyAccess": true
+      },
+      "commercial": {
+        "priceUsd": {
+          "value": 13.99,
+          "source": "steam",
+          "estimated": false
+        },
+        "estimatedCopiesSold": {
+          "value": 8000000,
+          "source": "gamalytic",
+          "estimated": true
+        },
+        "estimatedRevenueUsd": {
+          "value": 112000000,
+          "source": "gamalytic",
+          "estimated": true
+        }
+      },
+      "reviews": {
+        "total": {
+          "value": 298540,
+          "source": "steam",
+          "estimated": false
+        },
+        "positive": {
+          "value": 268686,
+          "source": "steam",
+          "estimated": false
+        },
+        "negative": {
+          "value": 29854,
+          "source": "steam",
+          "estimated": false
+        },
+        "positiveRatio": {
+          "value": 0.9,
+          "source": "steam",
+          "estimated": false
+        },
+        "sentimentSummary": {
+          "value": "Very Positive",
+          "source": "steam",
+          "estimated": false
+        }
+      }
+    },
+    {
+      "identity": {
+        "steamAppId": 493520,
+        "igdbId": null,
+        "name": "GTFO",
+        "steamUrl": "https://store.steampowered.com/app/493520"
+      },
+      "metadata": {
+        "summary": "Hardcore 4-player co-op action horror FPS. Work together to explore hostile environments.",
+        "genres": [
+          "Action",
+          "Horror"
+        ],
+        "themes": [
+          "Sci-Fi",
+          "Dark"
+        ],
+        "tags": [
+          "Horror",
+          "Co-op",
+          "FPS",
+          "Difficult",
+          "Online Co-Op",
+          "Atmospheric"
+        ],
+        "keywords": [
+          "hardcore",
+          "co-op",
+          "shooter",
+          "horror",
+          "stealth"
+        ],
+        "gameModes": [
+          "Online Co-op"
+        ],
+        "perspectives": [
+          "First person"
+        ],
+        "platforms": [
+          "PC"
+        ],
+        "developers": [
+          "10 Chambers"
+        ],
+        "publishers": [
+          "10 Chambers"
+        ]
+      },
+      "release": {
+        "date": "2021-12-09",
+        "isReleased": true,
+        "isEarlyAccess": false
+      },
+      "commercial": {
+        "priceUsd": {
+          "value": 39.99,
+          "source": "steam",
+          "estimated": false
+        },
+        "estimatedCopiesSold": {
+          "value": 450000,
+          "source": "gamalytic",
+          "estimated": true
+        },
+        "estimatedRevenueUsd": {
+          "value": 18000000,
+          "source": "gamalytic",
+          "estimated": true
+        }
+      },
+      "reviews": {
+        "total": {
+          "value": 28910,
+          "source": "steam",
+          "estimated": false
+        },
+        "positive": {
+          "value": 23707,
+          "source": "steam",
+          "estimated": false
+        },
+        "negative": {
+          "value": 5203,
+          "source": "steam",
+          "estimated": false
+        },
+        "positiveRatio": {
+          "value": 0.82,
+          "source": "steam",
+          "estimated": false
+        },
+        "sentimentSummary": {
+          "value": "Very Positive",
+          "source": "steam",
+          "estimated": false
+        }
+      }
+    },
+    {
+      "identity": {
+        "steamAppId": 1304930,
+        "igdbId": null,
+        "name": "The Outlast Trials",
+        "steamUrl": "https://store.steampowered.com/app/1304930"
+      },
+      "metadata": {
+        "summary": "Cold War era co-op survival horror. Subjects undergo mind-control experiments.",
+        "genres": [
+          "Horror",
+          "Action"
+        ],
+        "themes": [
+          "Dark",
+          "Psychological"
+        ],
+        "tags": [
+          "Horror",
+          "Co-op",
+          "Survival Horror",
+          "Stealth",
+          "Online Co-Op",
+          "Multiplayer"
+        ],
+        "keywords": [
+          "outlast",
+          "co-op",
+          "horror",
+          "stealth",
+          "survival"
+        ],
+        "gameModes": [
+          "Online Co-op",
+          "Singleplayer"
+        ],
+        "perspectives": [
+          "First person"
+        ],
+        "platforms": [
+          "PC"
+        ],
+        "developers": [
+          "Red Barrels"
+        ],
+        "publishers": [
+          "Red Barrels"
+        ]
+      },
+      "release": {
+        "date": "2024-03-05",
+        "isReleased": true,
+        "isEarlyAccess": false
+      },
+      "commercial": {
+        "priceUsd": {
+          "value": 29.99,
+          "source": "steam",
+          "estimated": false
+        },
+        "estimatedCopiesSold": {
+          "value": 730000,
+          "source": "gamalytic",
+          "estimated": true
+        },
+        "estimatedRevenueUsd": {
+          "value": 22000000,
+          "source": "gamalytic",
+          "estimated": true
+        }
+      },
+      "reviews": {
+        "total": {
+          "value": 34220,
+          "source": "steam",
+          "estimated": false
+        },
+        "positive": {
+          "value": 27034,
+          "source": "steam",
+          "estimated": false
+        },
+        "negative": {
+          "value": 7186,
+          "source": "steam",
+          "estimated": false
+        },
+        "positiveRatio": {
+          "value": 0.79,
+          "source": "steam",
+          "estimated": false
+        },
+        "sentimentSummary": {
+          "value": "Mostly Positive",
+          "source": "steam",
+          "estimated": false
+        }
+      }
+    },
+    {
+      "identity": {
+        "steamAppId": 307110,
+        "igdbId": null,
+        "name": "We Need to Go Deeper",
+        "steamUrl": "https://store.steampowered.com/app/307110"
+      },
+      "metadata": {
+        "summary": "2-4 player co-op submarine roguelike. Dive into the depths, fight monsters, survive together.",
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "themes": [
+          "Underwater",
+          "Roguelike"
+        ],
+        "tags": [
+          "Co-op",
+          "Submarine",
+          "Roguelike",
+          "Adventure",
+          "Online Co-Op",
+          "Indie"
+        ],
+        "keywords": [
+          "submarine",
+          "co-op",
+          "roguelike",
+          "underwater",
+          "monsters"
+        ],
+        "gameModes": [
+          "Online Co-op",
+          "Local Co-op"
+        ],
+        "perspectives": [
+          "Side view"
+        ],
+        "platforms": [
+          "PC"
+        ],
+        "developers": [
+          "Deli Interactive"
+        ],
+        "publishers": [
+          "Deli Interactive"
+        ]
+      },
+      "release": {
+        "date": "2019-11-01",
+        "isReleased": true,
+        "isEarlyAccess": false
+      },
+      "commercial": {
+        "priceUsd": {
+          "value": 14.99,
+          "source": "steam",
+          "estimated": false
+        },
+        "estimatedCopiesSold": {
+          "value": 160000,
+          "source": "gamalytic",
+          "estimated": true
+        },
+        "estimatedRevenueUsd": {
+          "value": 2400000,
+          "source": "gamalytic",
+          "estimated": true
+        }
+      },
+      "reviews": {
+        "total": {
+          "value": 3870,
+          "source": "steam",
+          "estimated": false
+        },
+        "positive": {
+          "value": 3251,
+          "source": "steam",
+          "estimated": false
+        },
+        "negative": {
+          "value": 619,
+          "source": "steam",
+          "estimated": false
+        },
+        "positiveRatio": {
+          "value": 0.84,
+          "source": "steam",
+          "estimated": false
+        },
+        "sentimentSummary": {
+          "value": "Very Positive",
+          "source": "steam",
+          "estimated": false
+        }
+      }
+    },
+    {
+      "identity": {
+        "steamAppId": 945360,
+        "igdbId": null,
+        "name": "Among Us",
+        "steamUrl": "https://store.steampowered.com/app/945360"
+      },
+      "metadata": {
+        "summary": "An online multiplayer social deduction game. Find the impostor among your crewmates.",
+        "genres": [
+          "Casual",
+          "Strategy"
+        ],
+        "themes": [
+          "Sci-Fi",
+          "Social"
+        ],
+        "tags": [
+          "Multiplayer",
+          "Social Deduction",
+          "Online Co-Op",
+          "Space",
+          "Funny"
+        ],
+        "keywords": [
+          "social deduction",
+          "impostor",
+          "multiplayer",
+          "space",
+          "crewmates"
+        ],
+        "gameModes": [
+          "Online Co-op",
+          "Online PvP"
+        ],
+        "perspectives": [
+          "Top down"
+        ],
+        "platforms": [
+          "PC"
+        ],
+        "developers": [
+          "Innersloth"
+        ],
+        "publishers": [
+          "Innersloth"
+        ]
+      },
+      "release": {
+        "date": "2018-11-16",
+        "isReleased": true,
+        "isEarlyAccess": false
+      },
+      "commercial": {
+        "priceUsd": {
+          "value": 4.99,
+          "source": "steam",
+          "estimated": false
+        },
+        "estimatedCopiesSold": {
+          "value": 12000000,
+          "source": "gamalytic",
+          "estimated": true
+        },
+        "estimatedRevenueUsd": {
+          "value": 60000000,
+          "source": "gamalytic",
+          "estimated": true
+        }
+      },
+      "reviews": {
+        "total": {
+          "value": 612000,
+          "source": "steam",
+          "estimated": false
+        },
+        "positive": {
+          "value": 556920,
+          "source": "steam",
+          "estimated": false
+        },
+        "negative": {
+          "value": 55080,
+          "source": "steam",
+          "estimated": false
+        },
+        "positiveRatio": {
+          "value": 0.91,
+          "source": "steam",
+          "estimated": false
+        },
+        "sentimentSummary": {
+          "value": "Very Positive",
+          "source": "steam",
+          "estimated": false
+        }
+      }
+    },
+    {
+      "identity": {
+        "steamAppId": 552500,
+        "igdbId": null,
+        "name": "Deep Rock Galactic",
+        "steamUrl": "https://store.steampowered.com/app/548430"
+      },
+      "metadata": {
+        "summary": "1-4 player co-op FPS featuring badass space dwarves, 100% destructible environments, and procedural caves.",
+        "genres": [
+          "Action",
+          "FPS"
+        ],
+        "themes": [
+          "Sci-Fi",
+          "Mining"
+        ],
+        "tags": [
+          "Co-op",
+          "FPS",
+          "Online Co-Op",
+          "Procedural Generation",
+          "Multiplayer",
+          "Indie"
+        ],
+        "keywords": [
+          "dwarves",
+          "mining",
+          "co-op",
+          "shooter",
+          "caves",
+          "procedural"
+        ],
+        "gameModes": [
+          "Online Co-op",
+          "Singleplayer"
+        ],
+        "perspectives": [
+          "First person"
+        ],
+        "platforms": [
+          "PC"
+        ],
+        "developers": [
+          "Ghost Ship Games"
+        ],
+        "publishers": [
+          "Coffee Stain Publishing"
+        ]
+      },
+      "release": {
+        "date": "2020-05-13",
+        "isReleased": true,
+        "isEarlyAccess": false
+      },
+      "commercial": {
+        "priceUsd": {
+          "value": 29.99,
+          "source": "steam",
+          "estimated": false
+        },
+        "estimatedCopiesSold": {
+          "value": 5600000,
+          "source": "gamalytic",
+          "estimated": true
+        },
+        "estimatedRevenueUsd": {
+          "value": 168000000,
+          "source": "gamalytic",
+          "estimated": true
+        }
+      },
+      "reviews": {
+        "total": {
+          "value": 224000,
+          "source": "steam",
+          "estimated": false
+        },
+        "positive": {
+          "value": 218400,
+          "source": "steam",
+          "estimated": false
+        },
+        "negative": {
+          "value": 5600,
+          "source": "steam",
+          "estimated": false
+        },
+        "positiveRatio": {
+          "value": 0.975,
+          "source": "steam",
+          "estimated": false
+        },
+        "sentimentSummary": {
+          "value": "Overwhelmingly Positive",
+          "source": "steam",
+          "estimated": false
+        }
+      }
+    },
+    {
+      "identity": {
+        "steamAppId": 700580,
+        "igdbId": null,
+        "name": "Subnautica: Below Zero",
+        "steamUrl": "https://store.steampowered.com/app/848450"
+      },
+      "metadata": {
+        "summary": "Dive into a freezing underwater adventure on an alien planet. Craft, build, and survive.",
+        "genres": [
+          "Adventure",
+          "Survival"
+        ],
+        "themes": [
+          "Underwater",
+          "Sci-Fi",
+          "Open World"
+        ],
+        "tags": [
+          "Survival",
+          "Open World",
+          "Underwater",
+          "Crafting",
+          "Exploration",
+          "Sci-Fi"
+        ],
+        "keywords": [
+          "underwater",
+          "survival",
+          "crafting",
+          "alien",
+          "exploration"
+        ],
+        "gameModes": [
+          "Singleplayer"
+        ],
+        "perspectives": [
+          "First person"
+        ],
+        "platforms": [
+          "PC"
+        ],
+        "developers": [
+          "Unknown Worlds Entertainment"
+        ],
+        "publishers": [
+          "Unknown Worlds Entertainment"
+        ]
+      },
+      "release": {
+        "date": "2021-05-14",
+        "isReleased": true,
+        "isEarlyAccess": false
+      },
+      "commercial": {
+        "priceUsd": {
+          "value": 29.99,
+          "source": "steam",
+          "estimated": false
+        },
+        "estimatedCopiesSold": {
+          "value": 2100000,
+          "source": "gamalytic",
+          "estimated": true
+        },
+        "estimatedRevenueUsd": {
+          "value": 63000000,
+          "source": "gamalytic",
+          "estimated": true
+        }
+      },
+      "reviews": {
+        "total": {
+          "value": 28400,
+          "source": "steam",
+          "estimated": false
+        },
+        "positive": {
+          "value": 23604,
+          "source": "steam",
+          "estimated": false
+        },
+        "negative": {
+          "value": 4796,
+          "source": "steam",
+          "estimated": false
+        },
+        "positiveRatio": {
+          "value": 0.83,
+          "source": "steam",
+          "estimated": false
+        },
+        "sentimentSummary": {
+          "value": "Very Positive",
+          "source": "steam",
+          "estimated": false
+        }
+      }
+    },
+    {
+      "identity": {
+        "steamAppId": 264710,
+        "igdbId": null,
+        "name": "Subnautica",
+        "steamUrl": "https://store.steampowered.com/app/264710"
+      },
+      "metadata": {
+        "summary": "Descend into the depths of an alien underwater world filled with wonder and peril.",
+        "genres": [
+          "Adventure",
+          "Survival"
+        ],
+        "themes": [
+          "Underwater",
+          "Sci-Fi",
+          "Open World"
+        ],
+        "tags": [
+          "Survival",
+          "Open World",
+          "Underwater",
+          "Crafting",
+          "Exploration",
+          "Horror"
+        ],
+        "keywords": [
+          "underwater",
+          "survival",
+          "crafting",
+          "alien",
+          "ocean",
+          "leviathan"
+        ],
+        "gameModes": [
+          "Singleplayer"
+        ],
+        "perspectives": [
+          "First person"
+        ],
+        "platforms": [
+          "PC"
+        ],
+        "developers": [
+          "Unknown Worlds Entertainment"
+        ],
+        "publishers": [
+          "Unknown Worlds Entertainment"
+        ]
+      },
+      "release": {
+        "date": "2018-01-23",
+        "isReleased": true,
+        "isEarlyAccess": false
+      },
+      "commercial": {
+        "priceUsd": {
+          "value": 29.99,
+          "source": "steam",
+          "estimated": false
+        },
+        "estimatedCopiesSold": {
+          "value": 8500000,
+          "source": "gamalytic",
+          "estimated": true
+        },
+        "estimatedRevenueUsd": {
+          "value": 255000000,
+          "source": "gamalytic",
+          "estimated": true
+        }
+      },
+      "reviews": {
+        "total": {
+          "value": 234000,
+          "source": "steam",
+          "estimated": false
+        },
+        "positive": {
+          "value": 222300,
+          "source": "steam",
+          "estimated": false
+        },
+        "negative": {
+          "value": 11700,
+          "source": "steam",
+          "estimated": false
+        },
+        "positiveRatio": {
+          "value": 0.95,
+          "source": "steam",
+          "estimated": false
+        },
+        "sentimentSummary": {
+          "value": "Overwhelmingly Positive",
+          "source": "steam",
+          "estimated": false
+        }
+      }
+    },
+    {
+      "identity": {
+        "steamAppId": 1313140,
+        "igdbId": null,
+        "name": "Content Warning",
+        "steamUrl": "https://store.steampowered.com/app/2881650"
+      },
+      "metadata": {
+        "summary": "Film scary monsters with friends in the old world to go viral on SpookTube.",
+        "genres": [
+          "Horror",
+          "Action"
+        ],
+        "themes": [
+          "Comedy",
+          "Dark"
+        ],
+        "tags": [
+          "Co-op",
+          "Horror",
+          "Funny",
+          "Online Co-Op",
+          "Multiplayer",
+          "Indie"
+        ],
+        "keywords": [
+          "filming",
+          "co-op",
+          "horror",
+          "comedy",
+          "viral",
+          "monsters"
+        ],
+        "gameModes": [
+          "Online Co-op"
+        ],
+        "perspectives": [
+          "First person"
+        ],
+        "platforms": [
+          "PC"
+        ],
+        "developers": [
+          "Landfall"
+        ],
+        "publishers": [
+          "Landfall"
+        ]
+      },
+      "release": {
+        "date": "2024-04-01",
+        "isReleased": true,
+        "isEarlyAccess": false
+      },
+      "commercial": {
+        "priceUsd": {
+          "value": 7.99,
+          "source": "steam",
+          "estimated": false
+        },
+        "estimatedCopiesSold": {
+          "value": 3200000,
+          "source": "gamalytic",
+          "estimated": true
+        },
+        "estimatedRevenueUsd": {
+          "value": 25600000,
+          "source": "gamalytic",
+          "estimated": true
+        }
+      },
+      "reviews": {
+        "total": {
+          "value": 48900,
+          "source": "steam",
+          "estimated": false
+        },
+        "positive": {
+          "value": 44988,
+          "source": "steam",
+          "estimated": false
+        },
+        "negative": {
+          "value": 3912,
+          "source": "steam",
+          "estimated": false
+        },
+        "positiveRatio": {
+          "value": 0.92,
+          "source": "steam",
+          "estimated": false
+        },
+        "sentimentSummary": {
+          "value": "Very Positive",
+          "source": "steam",
+          "estimated": false
+        }
+      }
+    },
+    {
+      "identity": {
+        "steamAppId": 1229490,
+        "igdbId": null,
+        "name": "Devour",
+        "steamUrl": "https://store.steampowered.com/app/1274570"
+      },
+      "metadata": {
+        "summary": "1-4 player co-op horror survival game. Stop possessed cultists before they drag you to hell.",
+        "genres": [
+          "Horror",
+          "Action"
+        ],
+        "themes": [
+          "Supernatural",
+          "Dark"
+        ],
+        "tags": [
+          "Horror",
+          "Co-op",
+          "Online Co-Op",
+          "Survival",
+          "Multiplayer",
+          "Indie"
+        ],
+        "keywords": [
+          "cultist",
+          "co-op",
+          "horror",
+          "demons",
+          "ritual"
+        ],
+        "gameModes": [
+          "Online Co-op",
+          "Singleplayer"
+        ],
+        "perspectives": [
+          "First person"
+        ],
+        "platforms": [
+          "PC"
+        ],
+        "developers": [
+          "Straight Back Games"
+        ],
+        "publishers": [
+          "Straight Back Games"
+        ]
+      },
+      "release": {
+        "date": "2021-01-28",
+        "isReleased": true,
+        "isEarlyAccess": false
+      },
+      "commercial": {
+        "priceUsd": {
+          "value": 4.99,
+          "source": "steam",
+          "estimated": false
+        },
+        "estimatedCopiesSold": {
+          "value": 1800000,
+          "source": "gamalytic",
+          "estimated": true
+        },
+        "estimatedRevenueUsd": {
+          "value": 9000000,
+          "source": "gamalytic",
+          "estimated": true
+        }
+      },
+      "reviews": {
+        "total": {
+          "value": 32400,
+          "source": "steam",
+          "estimated": false
+        },
+        "positive": {
+          "value": 29484,
+          "source": "steam",
+          "estimated": false
+        },
+        "negative": {
+          "value": 2916,
+          "source": "steam",
+          "estimated": false
+        },
+        "positiveRatio": {
+          "value": 0.91,
+          "source": "steam",
+          "estimated": false
+        },
+        "sentimentSummary": {
+          "value": "Very Positive",
+          "source": "steam",
+          "estimated": false
+        }
+      }
+    }
+  ]
+}
