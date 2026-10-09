@@ -26,7 +26,7 @@ export async function POST(req: Request) {
     return new Response(JSON.stringify(exportData, null, 2), {
       headers: {
         'Content-Type': 'application/json',
-        'Content-Disposition': `attachment; filename="releasesignal-${snapshot.snapshotId}.json"`,
+        'Content-Disposition': `attachment; filename="ludiqentra-${snapshot.snapshotId}.json"`,
         'Cache-Control': 'no-store',
       },
     });

@@ -24,7 +24,7 @@ export function PrintReport({ snapshot }: { snapshot: Snapshot }) {
   return (
     <article className="print-report" data-print-root>
       <header>
-        <p className="print-eyebrow">ReleaseSignal market analysis</p>
+        <p className="print-eyebrow">Ludiqentra market analysis</p>
         <h1>{concept.concept.title || "Untitled game concept"}</h1>
         <p>{concept.concept.shortDescription}</p>
         <dl className="print-meta">

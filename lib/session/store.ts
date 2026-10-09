@@ -10,7 +10,7 @@ import type {
   Snapshot,
 } from "@/lib/domain/types";
 
-export const SESSION_STORAGE_KEY = "releasesignal-session-v1";
+export const SESSION_STORAGE_KEY = "ludiqentra-session-v1";
 
 export type SessionPhase = "landing" | "describe" | "comparables" | "analytics";
 

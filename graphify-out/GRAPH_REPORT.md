@@ -42,10 +42,10 @@
 - HTTP API
 - reviews.ts
 - store.ts
-- ReleaseSignal
+- Ludiqentra
 - Comparable review screenshot
 - revenue.ts
-- ReleaseSignal design system
+- Ludiqentra design system
 - Application page dependency tree
 - WelcomePhase.tsx
 - Comparable games screen
@@ -53,16 +53,16 @@
 - Architecture-aligned testing
 - ScoredCompetitor
 - react
-- ReleaseSignal architecture
+- Ludiqentra architecture
 - Investor demo flow
 - Two-stage live game discovery
 - CI verification
-- ReleaseSignal theme
+- Ludiqentra theme
 - Launch calendar prototype
-- ReleaseSignal welcome screen
-- ReleaseSignal candidate weeks screen
-- ReleaseSignal candidate weeks screen
-- ReleaseSignal welcome screen
+- Ludiqentra welcome screen
+- Ludiqentra candidate weeks screen
+- Ludiqentra candidate weeks screen
+- Ludiqentra welcome screen
 - Live game data collector
 - Provider ownership
 - launch-inputs.ts
@@ -77,7 +77,7 @@
 - Demo runbook
 - Project contribution rules
 - Description prototype
-- ReleaseSignal description screen
+- Ludiqentra description screen
 - Concept extraction
 - Field provenance
 - Immutable corpus
@@ -105,12 +105,12 @@
 - mcp/client.test.ts
 - Next.js agent rules
 - TaxonomyEditor.tsx
-- ReleaseSignal vector logo
-- ReleaseSignal raster logo
+- Ludiqentra vector logo
+- Ludiqentra raster logo
 - Live interactive flow
 - Grok ranking
 - Fresh validation
-- ReleaseSignal logo
+- Ludiqentra logo
 - Window icon
 - API response envelope
 - Structured-output schemas
@@ -128,7 +128,7 @@
 ## God Nodes (most connected - your core abstractions)
 1. `vitest` - 39 edges
 2. `GameConcept` - 29 edges
-3. `ReleaseSignal` - 24 edges
+3. `Ludiqentra` - 24 edges
 4. `Deterministic scoring` - 23 edges
 5. `ProviderError` - 22 edges
 6. `parseProvider()` - 21 edges
@@ -285,7 +285,7 @@ Nodes (9): ReviewComment, CommentSchema, count, fetchSteamComments(), fetchSteam
 Cohesion: 0.23
 Nodes (10): initialSession, isRecord(), SESSION_STORAGE_KEY, SessionData, sessionFromStorage(), SessionPhase, SessionStore, useSessionStore (+2 more)
 
-### Community 31 - "ReleaseSignal"
+### Community 31 - "Ludiqentra"
 Cohesion: 0.17
 Nodes (12): 26–52 week calendar, Approval-gated collection, Browser localStorage, Gamalytic estimates, Gameplay-based comparables, Grok description validation, IGDB MCP discovery, Immutable exports (+4 more)
 
@@ -297,9 +297,9 @@ Nodes (11): Abyssal Echoes, Cohort median strip, Comparable review screenshot, D
 Cohesion: 0.27
 Nodes (8): knownNonNegative(), RevenueObservation, roundSig(), scoreRevenue(), weightedPercentile(), EstimatedRevenue, competitor(), game()
 
-### Community 34 - "ReleaseSignal design system"
+### Community 34 - "Ludiqentra design system"
 Cohesion: 0.20
-Nodes (10): Dark intelligence console, Illustrative analysis, Inter body typography, JetBrains Mono evidence typography, Persisted four-state journey, Reduced motion, ReleaseSignal design system, Sora headings (+2 more)
+Nodes (10): Dark intelligence console, Illustrative analysis, Inter body typography, JetBrains Mono evidence typography, Persisted four-state journey, Reduced motion, Ludiqentra design system, Sora headings (+2 more)
 
 ### Community 35 - "Application page dependency tree"
 Cohesion: 0.20
@@ -329,9 +329,9 @@ Nodes (8): compactCurrency(), ComparableRevenueChart(), Props, shortName(), Prop
 Cohesion: 0.22
 Nodes (3): SearchResult, ACCEPTED, react
 
-### Community 42 - "ReleaseSignal architecture"
+### Community 42 - "Ludiqentra architecture"
 Cohesion: 0.31
-Nodes (9): Application use cases, Approval-gated collection, Architecture boundary tests, Browser analysis snapshots, Domain contracts and scoring, HTTP route adapters, Infrastructure provider adapters, ReleaseSignal architecture (+1 more)
+Nodes (9): Application use cases, Approval-gated collection, Architecture boundary tests, Browser analysis snapshots, Domain contracts and scoring, HTTP route adapters, Infrastructure provider adapters, Ludiqentra architecture (+1 more)
 
 ### Community 43 - "Investor demo flow"
 Cohesion: 0.22
@@ -345,29 +345,29 @@ Nodes (5): Explicit candidate approval, Two-stage live game discovery, Grok extr
 Cohesion: 0.25
 Nodes (8): CI verification, Frozen lockfile installation, Lint, Node.js 20, pnpm 10.16.0, Production build, Typecheck, Vitest tests
 
-### Community 46 - "ReleaseSignal theme"
+### Community 46 - "Ludiqentra theme"
 Cohesion: 0.25
-Nodes (8): Dark surface hierarchy, Inter, JetBrains Mono, Primary blue signal, ReleaseSignal theme, Responsive layout, Semantic green amber red, Sora
+Nodes (8): Dark surface hierarchy, Inter, JetBrains Mono, Primary blue signal, Ludiqentra theme, Responsive layout, Semantic green amber red, Sora
 
 ### Community 47 - "Launch calendar prototype"
 Cohesion: 0.25
 Nodes (8): Expandable collision rationale, KEEP recommendation, Launch calendar prototype, MITIGATE recommendation, MOVE recommendation, Optimal release window, Planned launch week, Weekly overlap score
 
-### Community 48 - "ReleaseSignal welcome screen"
+### Community 48 - "Ludiqentra welcome screen"
 Cohesion: 0.25
-Nodes (7): Comparable performance, Describe your game, Find true comparables, Import Steam URL, ReleaseSignal welcome screen, Score launch week, Start from scratch
+Nodes (7): Comparable performance, Describe your game, Find true comparables, Import Steam URL, Ludiqentra welcome screen, Score launch week, Start from scratch
 
-### Community 49 - "ReleaseSignal candidate weeks screen"
+### Community 49 - "Ludiqentra candidate weeks screen"
 Cohesion: 0.25
-Nodes (8): Expanded week explanation, ReleaseSignal candidate weeks screen, Oct 26–Nov 1 optimal window, overlap 29, Planned week selector and horizon toggle, FACT Steam and PREDICTION engine labels, Save to dashboard action, KEEP MITIGATE MOVE verdict badges, Weekly launch collision cards
+Nodes (8): Expanded week explanation, Ludiqentra candidate weeks screen, Oct 26–Nov 1 optimal window, overlap 29, Planned week selector and horizon toggle, FACT Steam and PREDICTION engine labels, Save to dashboard action, KEEP MITIGATE MOVE verdict badges, Weekly launch collision cards
 
-### Community 50 - "ReleaseSignal candidate weeks screen"
+### Community 50 - "Ludiqentra candidate weeks screen"
 Cohesion: 0.25
-Nodes (8): Expanded week explanation, ReleaseSignal candidate weeks screen, Oct 26–Nov 1 optimal window, overlap 29, Planned week selector and horizon toggle, FACT Steam and PREDICTION engine labels, Save to dashboard action, KEEP MITIGATE MOVE verdict badges, Weekly launch collision cards
+Nodes (8): Expanded week explanation, Ludiqentra candidate weeks screen, Oct 26–Nov 1 optimal window, overlap 29, Planned week selector and horizon toggle, FACT Steam and PREDICTION engine labels, Save to dashboard action, KEEP MITIGATE MOVE verdict badges, Weekly launch collision cards
 
-### Community 51 - "ReleaseSignal welcome screen"
+### Community 51 - "Ludiqentra welcome screen"
 Cohesion: 0.25
-Nodes (7): Comparable performance, Describe your game, Find true comparables, Import Steam URL, ReleaseSignal welcome screen, Score launch week, Start from scratch
+Nodes (7): Comparable performance, Describe your game, Find true comparables, Import Steam URL, Ludiqentra welcome screen, Score launch week, Start from scratch
 
 ### Community 52 - "Live game data collector"
 Cohesion: 0.36
@@ -425,9 +425,9 @@ Nodes (6): Conventional commits, Project contribution rules, Pure scoring functi
 Cohesion: 0.33
 Nodes (6): Description prototype, Find comparables, Four-player submarine co-op concept, Genre taxonomy suggestions, Optional similar-game references, Three-stage progress navigation
 
-### Community 66 - "ReleaseSignal description screen"
+### Community 66 - "Ludiqentra description screen"
 Cohesion: 0.33
-Nodes (6): ReleaseSignal description screen, Disabled Find comparables action, Moment-to-moment gameplay textarea, Steam taxonomy suggestion chips, Optional similar-game references, Describe Comparables Launch window stepper
+Nodes (6): Ludiqentra description screen, Disabled Find comparables action, Moment-to-moment gameplay textarea, Steam taxonomy suggestion chips, Optional similar-game references, Describe Comparables Launch window stepper
 
 ### Community 67 - "Concept extraction"
 Cohesion: 0.33
@@ -463,7 +463,7 @@ Nodes (5): getToken(), igdbGames(), igdbMultiquery(), igdbQuery(), rateLimit()
 
 ### Community 75 - "Root application shell"
 Cohesion: 0.40
-Nodes (5): Google Fonts, ReleaseSignal product header, Root application shell, RootLayout, Scrollable content area
+Nodes (5): Google Fonts, Ludiqentra product header, Root application shell, RootLayout, Scrollable content area
 
 ### Community 76 - "Hackathon code of conduct"
 Cohesion: 0.40
@@ -533,13 +533,13 @@ Nodes (4): Breaking API changes, Generated agent files, Local Next.js documentat
 Cohesion: 0.83
 Nodes (3): AddTag(), TagChip(), TaxonomyEditor()
 
-### Community 94 - "ReleaseSignal vector logo"
+### Community 94 - "Ludiqentra vector logo"
 Cohesion: 0.50
-Nodes (4): Blue signal accent, Circular radar emblem, ReleaseSignal vector logo, ReleaseSignal wordmark
+Nodes (4): Blue signal accent, Circular radar emblem, Ludiqentra vector logo, Ludiqentra wordmark
 
-### Community 95 - "ReleaseSignal raster logo"
+### Community 95 - "Ludiqentra raster logo"
 Cohesion: 0.50
-Nodes (4): Circular radar emblem, ReleaseSignal raster logo, ReleaseSignal wordmark, White and blue brand typography
+Nodes (4): Circular radar emblem, Ludiqentra raster logo, Ludiqentra wordmark, White and blue brand typography
 
 ### Community 96 - "Live interactive flow"
 Cohesion: 0.50
@@ -549,9 +549,9 @@ Nodes (3): Live interactive flow, POST /api/games/discover, POST /api/games/disc
 Cohesion: 0.50
 Nodes (3): Clarification answers, Fresh validation, IGDB search
 
-### Community 99 - "ReleaseSignal logo"
+### Community 99 - "Ludiqentra logo"
 Cohesion: 0.50
-Nodes (4): Blue glow palette, Radar signal emblem, ReleaseSignal logo, ReleaseSignal wordmark
+Nodes (4): Blue glow palette, Radar signal emblem, Ludiqentra logo, Ludiqentra wordmark
 
 ### Community 100 - "Window icon"
 Cohesion: 0.50

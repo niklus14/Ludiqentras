@@ -9,7 +9,7 @@
 - Commit after completing each file, function, or logical unit — don't batch up large changes.
 - Push regularly so progress is visible in the repo history.
 
-# Project: ReleaseSignal
+# Project: Ludiqentra
 
 Launch-timing intelligence for Steam developers. See docs/ for full specs.
 

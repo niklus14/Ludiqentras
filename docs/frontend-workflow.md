@@ -211,7 +211,7 @@ Drivers always visible, never behind a toggle.
      ├──────────────────●────────────────────┤
 
      MEDIUM confidence · 12 comparables
-     ⓘ ReleaseSignal model over Gamalytic estimates
+     ⓘ Ludiqentra model over Gamalytic estimates
 ```
 
 A range on an axis, not three numbers in a row. The visual carries the uncertainty in a way that text does not.

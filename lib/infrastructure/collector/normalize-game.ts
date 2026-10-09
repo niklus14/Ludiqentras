@@ -60,12 +60,12 @@ export function normalizeGame(steam: SteamDetails, extra: Enrichment): Collected
       const currentPrice = price.current ?? 0;
       if (copies == null && reviewCount > 0 && currentPrice > 0) {
         copies = estimateCopies(reviewCount, currentPrice);
-        copiesSource = 'releasesignal';
+        copiesSource = 'ludiqentra';
         copiesMethod = 'Boxleiter model: review count × price-band multiplier';
       }
       if (rev == null && reviewCount > 0 && currentPrice > 0) {
         rev = estimateRevenue(reviewCount, currentPrice);
-        revSource = 'releasesignal';
+        revSource = 'ludiqentra';
         revMethod = 'Boxleiter model: copies × price × Valve cut × refund/discount adjustment';
       }
 

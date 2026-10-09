@@ -3,7 +3,7 @@
 ## RootProductHeader
 - Source: `app/layout.tsx`
 - Category: layout
-- Description: Compact ReleaseSignal brand bar shown throughout the application.
+- Description: Compact Ludiqentra brand bar shown throughout the application.
 - Extractable props: none.
 - Hardcoded: radar icon, product wordmark, border and dimensions.
 

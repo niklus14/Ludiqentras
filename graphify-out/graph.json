@@ -9281,7 +9281,7 @@
       "author": null,
       "captured_at": null,
       "community": 31,
-      "community_name": "ReleaseSignal",
+      "community_name": "Ludiqentra",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "26\u201352 week calendar",
@@ -9296,7 +9296,7 @@
       "author": null,
       "captured_at": null,
       "community": 31,
-      "community_name": "ReleaseSignal",
+      "community_name": "Ludiqentra",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "approval-gated collection",
@@ -9311,7 +9311,7 @@
       "author": null,
       "captured_at": null,
       "community": 31,
-      "community_name": "ReleaseSignal",
+      "community_name": "Ludiqentra",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "browser localstorage",
@@ -9326,7 +9326,7 @@
       "author": null,
       "captured_at": null,
       "community": 31,
-      "community_name": "ReleaseSignal",
+      "community_name": "Ludiqentra",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "gamalytic estimates",
@@ -9341,7 +9341,7 @@
       "author": null,
       "captured_at": null,
       "community": 31,
-      "community_name": "ReleaseSignal",
+      "community_name": "Ludiqentra",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "gameplay-based comparables",
@@ -9356,7 +9356,7 @@
       "author": null,
       "captured_at": null,
       "community": 31,
-      "community_name": "ReleaseSignal",
+      "community_name": "Ludiqentra",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "grok description validation",
@@ -9371,7 +9371,7 @@
       "author": null,
       "captured_at": null,
       "community": 31,
-      "community_name": "ReleaseSignal",
+      "community_name": "Ludiqentra",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "igdb mcp discovery",
@@ -9386,7 +9386,7 @@
       "author": null,
       "captured_at": null,
       "community": 31,
-      "community_name": "ReleaseSignal",
+      "community_name": "Ludiqentra",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "immutable exports",
@@ -9401,7 +9401,7 @@
       "author": null,
       "captured_at": null,
       "community": 31,
-      "community_name": "ReleaseSignal",
+      "community_name": "Ludiqentra",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "launch timing intelligence",
@@ -9416,7 +9416,7 @@
       "author": null,
       "captured_at": null,
       "community": 31,
-      "community_name": "ReleaseSignal",
+      "community_name": "Ludiqentra",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "steam facts",
@@ -9431,7 +9431,7 @@
       "author": null,
       "captured_at": null,
       "community": 31,
-      "community_name": "ReleaseSignal",
+      "community_name": "Ludiqentra",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "thirty-minute previews",
@@ -9440,16 +9440,16 @@
       "source_url": null
     },
     {
-      "id": "readme_releasesignal",
-      "label": "ReleaseSignal",
+      "id": "readme_ludiqentra",
+      "label": "Ludiqentra",
       "_origin": "semantic",
       "author": null,
       "captured_at": null,
       "community": 31,
-      "community_name": "ReleaseSignal",
+      "community_name": "Ludiqentra",
       "contributor": null,
       "file_type": "document",
-      "norm_label": "releasesignal",
+      "norm_label": "ludiqentra",
       "source_file": "README.md",
       "source_location": null,
       "source_url": null
@@ -9626,7 +9626,7 @@
       "author": null,
       "captured_at": null,
       "community": 34,
-      "community_name": "ReleaseSignal design system",
+      "community_name": "Ludiqentra design system",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "dark intelligence console",
@@ -9641,7 +9641,7 @@
       "author": null,
       "captured_at": null,
       "community": 34,
-      "community_name": "ReleaseSignal design system",
+      "community_name": "Ludiqentra design system",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "illustrative analysis",
@@ -9656,7 +9656,7 @@
       "author": null,
       "captured_at": null,
       "community": 34,
-      "community_name": "ReleaseSignal design system",
+      "community_name": "Ludiqentra design system",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "inter body typography",
@@ -9671,7 +9671,7 @@
       "author": null,
       "captured_at": null,
       "community": 34,
-      "community_name": "ReleaseSignal design system",
+      "community_name": "Ludiqentra design system",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "jetbrains mono evidence typography",
@@ -9686,7 +9686,7 @@
       "author": null,
       "captured_at": null,
       "community": 34,
-      "community_name": "ReleaseSignal design system",
+      "community_name": "Ludiqentra design system",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "persisted four-state journey",
@@ -9701,7 +9701,7 @@
       "author": null,
       "captured_at": null,
       "community": 34,
-      "community_name": "ReleaseSignal design system",
+      "community_name": "Ludiqentra design system",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "reduced motion",
@@ -9716,7 +9716,7 @@
       "author": null,
       "captured_at": null,
       "community": 34,
-      "community_name": "ReleaseSignal design system",
+      "community_name": "Ludiqentra design system",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "sora headings",
@@ -9731,7 +9731,7 @@
       "author": null,
       "captured_at": null,
       "community": 34,
-      "community_name": "ReleaseSignal design system",
+      "community_name": "Ludiqentra design system",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "steam investment decision support",
@@ -9746,7 +9746,7 @@
       "author": null,
       "captured_at": null,
       "community": 34,
-      "community_name": "ReleaseSignal design system",
+      "community_name": "Ludiqentra design system",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "visible provenance",
@@ -9755,16 +9755,16 @@
       "source_url": null
     },
     {
-      "id": "_superdesign_design_system_releasesignal_design_system",
-      "label": "ReleaseSignal design system",
+      "id": "_superdesign_design_system_ludiqentra_design_system",
+      "label": "Ludiqentra design system",
       "_origin": "semantic",
       "author": null,
       "captured_at": null,
       "community": 34,
-      "community_name": "ReleaseSignal design system",
+      "community_name": "Ludiqentra design system",
       "contributor": null,
       "file_type": "document",
-      "norm_label": "releasesignal design system",
+      "norm_label": "ludiqentra design system",
       "source_file": ".superdesign/design-system.md",
       "source_location": null,
       "source_url": null
@@ -10890,7 +10890,7 @@
       "author": null,
       "captured_at": null,
       "community": 42,
-      "community_name": "ReleaseSignal architecture",
+      "community_name": "Ludiqentra architecture",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "application use cases",
@@ -10905,7 +10905,7 @@
       "author": null,
       "captured_at": null,
       "community": 42,
-      "community_name": "ReleaseSignal architecture",
+      "community_name": "Ludiqentra architecture",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "approval-gated collection",
@@ -10920,7 +10920,7 @@
       "author": null,
       "captured_at": null,
       "community": 42,
-      "community_name": "ReleaseSignal architecture",
+      "community_name": "Ludiqentra architecture",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "architecture boundary tests",
@@ -10935,7 +10935,7 @@
       "author": null,
       "captured_at": null,
       "community": 42,
-      "community_name": "ReleaseSignal architecture",
+      "community_name": "Ludiqentra architecture",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "browser analysis snapshots",
@@ -10950,7 +10950,7 @@
       "author": null,
       "captured_at": null,
       "community": 42,
-      "community_name": "ReleaseSignal architecture",
+      "community_name": "Ludiqentra architecture",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "domain contracts and scoring",
@@ -10965,7 +10965,7 @@
       "author": null,
       "captured_at": null,
       "community": 42,
-      "community_name": "ReleaseSignal architecture",
+      "community_name": "Ludiqentra architecture",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "http route adapters",
@@ -10980,7 +10980,7 @@
       "author": null,
       "captured_at": null,
       "community": 42,
-      "community_name": "ReleaseSignal architecture",
+      "community_name": "Ludiqentra architecture",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "infrastructure provider adapters",
@@ -10995,7 +10995,7 @@
       "author": null,
       "captured_at": null,
       "community": 42,
-      "community_name": "ReleaseSignal architecture",
+      "community_name": "Ludiqentra architecture",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "stateless runtime",
@@ -11004,16 +11004,16 @@
       "source_url": null
     },
     {
-      "id": "docs_architecture_releasesignal_architecture",
-      "label": "ReleaseSignal architecture",
+      "id": "docs_architecture_ludiqentra_architecture",
+      "label": "Ludiqentra architecture",
       "_origin": "semantic",
       "author": null,
       "captured_at": null,
       "community": 42,
-      "community_name": "ReleaseSignal architecture",
+      "community_name": "Ludiqentra architecture",
       "contributor": null,
       "file_type": "document",
-      "norm_label": "releasesignal architecture",
+      "norm_label": "ludiqentra architecture",
       "source_file": "docs/ARCHITECTURE.md",
       "source_location": null,
       "source_url": null
@@ -11419,7 +11419,7 @@
       "author": null,
       "captured_at": null,
       "community": 46,
-      "community_name": "ReleaseSignal theme",
+      "community_name": "Ludiqentra theme",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "dark surface hierarchy",
@@ -11434,7 +11434,7 @@
       "author": null,
       "captured_at": null,
       "community": 46,
-      "community_name": "ReleaseSignal theme",
+      "community_name": "Ludiqentra theme",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "inter",
@@ -11449,7 +11449,7 @@
       "author": null,
       "captured_at": null,
       "community": 46,
-      "community_name": "ReleaseSignal theme",
+      "community_name": "Ludiqentra theme",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "jetbrains mono",
@@ -11464,7 +11464,7 @@
       "author": null,
       "captured_at": null,
       "community": 46,
-      "community_name": "ReleaseSignal theme",
+      "community_name": "Ludiqentra theme",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "primary blue signal",
@@ -11479,7 +11479,7 @@
       "author": null,
       "captured_at": null,
       "community": 46,
-      "community_name": "ReleaseSignal theme",
+      "community_name": "Ludiqentra theme",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "responsive layout",
@@ -11494,7 +11494,7 @@
       "author": null,
       "captured_at": null,
       "community": 46,
-      "community_name": "ReleaseSignal theme",
+      "community_name": "Ludiqentra theme",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "semantic green amber red",
@@ -11509,7 +11509,7 @@
       "author": null,
       "captured_at": null,
       "community": 46,
-      "community_name": "ReleaseSignal theme",
+      "community_name": "Ludiqentra theme",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "sora",
@@ -11518,16 +11518,16 @@
       "source_url": null
     },
     {
-      "id": "_superdesign_init_theme_releasesignal_theme",
-      "label": "ReleaseSignal theme",
+      "id": "_superdesign_init_theme_ludiqentra_theme",
+      "label": "Ludiqentra theme",
       "_origin": "semantic",
       "author": null,
       "captured_at": null,
       "community": 46,
-      "community_name": "ReleaseSignal theme",
+      "community_name": "Ludiqentra theme",
       "contributor": null,
       "file_type": "document",
-      "norm_label": "releasesignal theme",
+      "norm_label": "ludiqentra theme",
       "source_file": ".superdesign/init/theme.md",
       "source_location": null,
       "source_url": null
@@ -11659,7 +11659,7 @@
       "author": null,
       "captured_at": null,
       "community": 48,
-      "community_name": "ReleaseSignal welcome screen",
+      "community_name": "Ludiqentra welcome screen",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "comparable performance",
@@ -11674,7 +11674,7 @@
       "author": null,
       "captured_at": null,
       "community": 48,
-      "community_name": "ReleaseSignal welcome screen",
+      "community_name": "Ludiqentra welcome screen",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "describe your game",
@@ -11689,7 +11689,7 @@
       "author": null,
       "captured_at": null,
       "community": 48,
-      "community_name": "ReleaseSignal welcome screen",
+      "community_name": "Ludiqentra welcome screen",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "find true comparables",
@@ -11704,7 +11704,7 @@
       "author": null,
       "captured_at": null,
       "community": 48,
-      "community_name": "ReleaseSignal welcome screen",
+      "community_name": "Ludiqentra welcome screen",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "import steam url",
@@ -11719,7 +11719,7 @@
       "author": null,
       "captured_at": null,
       "community": 48,
-      "community_name": "ReleaseSignal welcome screen",
+      "community_name": "Ludiqentra welcome screen",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "score launch week",
@@ -11734,7 +11734,7 @@
       "author": null,
       "captured_at": null,
       "community": 48,
-      "community_name": "ReleaseSignal welcome screen",
+      "community_name": "Ludiqentra welcome screen",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "start from scratch",
@@ -11743,16 +11743,16 @@
       "source_url": null
     },
     {
-      "id": "data_stitch_review_01_welcome_releasesignal_welcome_screen",
-      "label": "ReleaseSignal welcome screen",
+      "id": "data_stitch_review_01_welcome_ludiqentra_welcome_screen",
+      "label": "Ludiqentra welcome screen",
       "_origin": "semantic",
       "author": null,
       "captured_at": null,
       "community": 48,
-      "community_name": "ReleaseSignal welcome screen",
+      "community_name": "Ludiqentra welcome screen",
       "contributor": null,
       "file_type": "image",
-      "norm_label": "releasesignal welcome screen",
+      "norm_label": "ludiqentra welcome screen",
       "source_file": "data/stitch/review/01-welcome.png",
       "source_location": null,
       "source_url": null
@@ -11764,7 +11764,7 @@
       "author": null,
       "captured_at": null,
       "community": 48,
-      "community_name": "ReleaseSignal welcome screen",
+      "community_name": "Ludiqentra welcome screen",
       "contributor": null,
       "file_type": "rationale",
       "norm_label": "dark blue gradient layout",
@@ -11780,7 +11780,7 @@
       "author": null,
       "captured_at": null,
       "community": 49,
-      "community_name": "ReleaseSignal candidate weeks screen",
+      "community_name": "Ludiqentra candidate weeks screen",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "expanded week explanation",
@@ -11796,7 +11796,7 @@
       "author": null,
       "captured_at": null,
       "community": 49,
-      "community_name": "ReleaseSignal candidate weeks screen",
+      "community_name": "Ludiqentra candidate weeks screen",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "oct 26\u2013nov 1 optimal window, overlap 29",
@@ -11811,7 +11811,7 @@
       "author": null,
       "captured_at": null,
       "community": 49,
-      "community_name": "ReleaseSignal candidate weeks screen",
+      "community_name": "Ludiqentra candidate weeks screen",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "planned week selector and horizon toggle",
@@ -11826,7 +11826,7 @@
       "author": null,
       "captured_at": null,
       "community": 49,
-      "community_name": "ReleaseSignal candidate weeks screen",
+      "community_name": "Ludiqentra candidate weeks screen",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "fact steam and prediction engine labels",
@@ -11842,7 +11842,7 @@
       "author": null,
       "captured_at": null,
       "community": 49,
-      "community_name": "ReleaseSignal candidate weeks screen",
+      "community_name": "Ludiqentra candidate weeks screen",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "save to dashboard action",
@@ -11857,7 +11857,7 @@
       "author": null,
       "captured_at": null,
       "community": 49,
-      "community_name": "ReleaseSignal candidate weeks screen",
+      "community_name": "Ludiqentra candidate weeks screen",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "keep mitigate move verdict badges",
@@ -11872,7 +11872,7 @@
       "author": null,
       "captured_at": null,
       "community": 49,
-      "community_name": "ReleaseSignal candidate weeks screen",
+      "community_name": "Ludiqentra candidate weeks screen",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "weekly launch collision cards",
@@ -11882,15 +11882,15 @@
     },
     {
       "id": "data_stitch_review_04_launch_window_launch_window_ui",
-      "label": "ReleaseSignal candidate weeks screen",
+      "label": "Ludiqentra candidate weeks screen",
       "_origin": "semantic",
       "author": null,
       "captured_at": null,
       "community": 49,
-      "community_name": "ReleaseSignal candidate weeks screen",
+      "community_name": "Ludiqentra candidate weeks screen",
       "contributor": null,
       "file_type": "image",
-      "norm_label": "releasesignal candidate weeks screen",
+      "norm_label": "ludiqentra candidate weeks screen",
       "source_file": "data/stitch/review/04-launch-window.png",
       "source_location": null,
       "source_url": null
@@ -12414,7 +12414,7 @@
       "author": null,
       "captured_at": null,
       "community": 50,
-      "community_name": "ReleaseSignal candidate weeks screen",
+      "community_name": "Ludiqentra candidate weeks screen",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "expanded week explanation",
@@ -12430,7 +12430,7 @@
       "author": null,
       "captured_at": null,
       "community": 50,
-      "community_name": "ReleaseSignal candidate weeks screen",
+      "community_name": "Ludiqentra candidate weeks screen",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "oct 26\u2013nov 1 optimal window, overlap 29",
@@ -12445,7 +12445,7 @@
       "author": null,
       "captured_at": null,
       "community": 50,
-      "community_name": "ReleaseSignal candidate weeks screen",
+      "community_name": "Ludiqentra candidate weeks screen",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "planned week selector and horizon toggle",
@@ -12460,7 +12460,7 @@
       "author": null,
       "captured_at": null,
       "community": 50,
-      "community_name": "ReleaseSignal candidate weeks screen",
+      "community_name": "Ludiqentra candidate weeks screen",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "fact steam and prediction engine labels",
@@ -12476,7 +12476,7 @@
       "author": null,
       "captured_at": null,
       "community": 50,
-      "community_name": "ReleaseSignal candidate weeks screen",
+      "community_name": "Ludiqentra candidate weeks screen",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "save to dashboard action",
@@ -12491,7 +12491,7 @@
       "author": null,
       "captured_at": null,
       "community": 50,
-      "community_name": "ReleaseSignal candidate weeks screen",
+      "community_name": "Ludiqentra candidate weeks screen",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "keep mitigate move verdict badges",
@@ -12506,7 +12506,7 @@
       "author": null,
       "captured_at": null,
       "community": 50,
-      "community_name": "ReleaseSignal candidate weeks screen",
+      "community_name": "Ludiqentra candidate weeks screen",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "weekly launch collision cards",
@@ -12516,15 +12516,15 @@
     },
     {
       "id": "data_stitch_screenshots_launch_window_launch_window_ui",
-      "label": "ReleaseSignal candidate weeks screen",
+      "label": "Ludiqentra candidate weeks screen",
       "_origin": "semantic",
       "author": null,
       "captured_at": null,
       "community": 50,
-      "community_name": "ReleaseSignal candidate weeks screen",
+      "community_name": "Ludiqentra candidate weeks screen",
       "contributor": null,
       "file_type": "image",
-      "norm_label": "releasesignal candidate weeks screen",
+      "norm_label": "ludiqentra candidate weeks screen",
       "source_file": "data/stitch/screenshots/launch-window.png",
       "source_location": null,
       "source_url": null
@@ -12536,7 +12536,7 @@
       "author": null,
       "captured_at": null,
       "community": 51,
-      "community_name": "ReleaseSignal welcome screen",
+      "community_name": "Ludiqentra welcome screen",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "comparable performance",
@@ -12551,7 +12551,7 @@
       "author": null,
       "captured_at": null,
       "community": 51,
-      "community_name": "ReleaseSignal welcome screen",
+      "community_name": "Ludiqentra welcome screen",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "describe your game",
@@ -12566,7 +12566,7 @@
       "author": null,
       "captured_at": null,
       "community": 51,
-      "community_name": "ReleaseSignal welcome screen",
+      "community_name": "Ludiqentra welcome screen",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "find true comparables",
@@ -12581,7 +12581,7 @@
       "author": null,
       "captured_at": null,
       "community": 51,
-      "community_name": "ReleaseSignal welcome screen",
+      "community_name": "Ludiqentra welcome screen",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "import steam url",
@@ -12596,7 +12596,7 @@
       "author": null,
       "captured_at": null,
       "community": 51,
-      "community_name": "ReleaseSignal welcome screen",
+      "community_name": "Ludiqentra welcome screen",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "score launch week",
@@ -12611,7 +12611,7 @@
       "author": null,
       "captured_at": null,
       "community": 51,
-      "community_name": "ReleaseSignal welcome screen",
+      "community_name": "Ludiqentra welcome screen",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "start from scratch",
@@ -12620,16 +12620,16 @@
       "source_url": null
     },
     {
-      "id": "data_stitch_screenshots_welcome_releasesignal_welcome_screen",
-      "label": "ReleaseSignal welcome screen",
+      "id": "data_stitch_screenshots_welcome_ludiqentra_welcome_screen",
+      "label": "Ludiqentra welcome screen",
       "_origin": "semantic",
       "author": null,
       "captured_at": null,
       "community": 51,
-      "community_name": "ReleaseSignal welcome screen",
+      "community_name": "Ludiqentra welcome screen",
       "contributor": null,
       "file_type": "image",
-      "norm_label": "releasesignal welcome screen",
+      "norm_label": "ludiqentra welcome screen",
       "source_file": "data/stitch/screenshots/welcome.png",
       "source_location": null,
       "source_url": null
@@ -12641,7 +12641,7 @@
       "author": null,
       "captured_at": null,
       "community": 51,
-      "community_name": "ReleaseSignal welcome screen",
+      "community_name": "Ludiqentra welcome screen",
       "contributor": null,
       "file_type": "rationale",
       "norm_label": "dark blue gradient layout",
@@ -13925,7 +13925,7 @@
       "author": null,
       "captured_at": null,
       "community": 66,
-      "community_name": "ReleaseSignal description screen",
+      "community_name": "Ludiqentra description screen",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "disabled find comparables action",
@@ -13941,7 +13941,7 @@
       "author": null,
       "captured_at": null,
       "community": 66,
-      "community_name": "ReleaseSignal description screen",
+      "community_name": "Ludiqentra description screen",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "moment-to-moment gameplay textarea",
@@ -13957,7 +13957,7 @@
       "author": null,
       "captured_at": null,
       "community": 66,
-      "community_name": "ReleaseSignal description screen",
+      "community_name": "Ludiqentra description screen",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "steam taxonomy suggestion chips",
@@ -13972,7 +13972,7 @@
       "author": null,
       "captured_at": null,
       "community": 66,
-      "community_name": "ReleaseSignal description screen",
+      "community_name": "Ludiqentra description screen",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "optional similar-game references",
@@ -13987,7 +13987,7 @@
       "author": null,
       "captured_at": null,
       "community": 66,
-      "community_name": "ReleaseSignal description screen",
+      "community_name": "Ludiqentra description screen",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "describe comparables launch window stepper",
@@ -13997,15 +13997,15 @@
     },
     {
       "id": "data_stitch_review_02_describe_describe_ui",
-      "label": "ReleaseSignal description screen",
+      "label": "Ludiqentra description screen",
       "_origin": "semantic",
       "author": null,
       "captured_at": null,
       "community": 66,
-      "community_name": "ReleaseSignal description screen",
+      "community_name": "Ludiqentra description screen",
       "contributor": null,
       "file_type": "image",
-      "norm_label": "releasesignal description screen",
+      "norm_label": "ludiqentra description screen",
       "source_file": "data/stitch/review/02-describe.png",
       "source_location": null,
       "source_url": null
@@ -14668,8 +14668,8 @@
       "source_url": null
     },
     {
-      "id": "_superdesign_init_layouts_releasesignal_product_header",
-      "label": "ReleaseSignal product header",
+      "id": "_superdesign_init_layouts_ludiqentra_product_header",
+      "label": "Ludiqentra product header",
       "_origin": "semantic",
       "author": null,
       "captured_at": null,
@@ -14677,7 +14677,7 @@
       "community_name": "Root application shell",
       "contributor": null,
       "file_type": "concept",
-      "norm_label": "releasesignal product header",
+      "norm_label": "ludiqentra product header",
       "source_file": ".superdesign/init/layouts.md",
       "source_location": null,
       "source_url": null
@@ -15785,7 +15785,7 @@
       "author": null,
       "captured_at": null,
       "community": 94,
-      "community_name": "ReleaseSignal vector logo",
+      "community_name": "Ludiqentra vector logo",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "blue signal accent",
@@ -15800,7 +15800,7 @@
       "author": null,
       "captured_at": null,
       "community": 94,
-      "community_name": "ReleaseSignal vector logo",
+      "community_name": "Ludiqentra vector logo",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "circular radar emblem",
@@ -15809,31 +15809,31 @@
       "source_url": null
     },
     {
-      "id": "data_stitch_html_logo_releasesignal_wordmark",
-      "label": "ReleaseSignal wordmark",
+      "id": "data_stitch_html_logo_ludiqentra_wordmark",
+      "label": "Ludiqentra wordmark",
       "_origin": "semantic",
       "author": null,
       "captured_at": null,
       "community": 94,
-      "community_name": "ReleaseSignal vector logo",
+      "community_name": "Ludiqentra vector logo",
       "contributor": null,
       "file_type": "concept",
-      "norm_label": "releasesignal wordmark",
+      "norm_label": "ludiqentra wordmark",
       "source_file": "data/stitch/html/logo.svg",
       "source_location": null,
       "source_url": null
     },
     {
-      "id": "data_stitch_html_logo_releasesignal_vector_logo",
-      "label": "ReleaseSignal vector logo",
+      "id": "data_stitch_html_logo_ludiqentra_vector_logo",
+      "label": "Ludiqentra vector logo",
       "_origin": "semantic",
       "author": null,
       "captured_at": null,
       "community": 94,
-      "community_name": "ReleaseSignal vector logo",
+      "community_name": "Ludiqentra vector logo",
       "contributor": null,
       "file_type": "document",
-      "norm_label": "releasesignal vector logo",
+      "norm_label": "ludiqentra vector logo",
       "source_file": "data/stitch/html/logo.svg",
       "source_location": null,
       "source_url": null
@@ -15845,7 +15845,7 @@
       "author": null,
       "captured_at": null,
       "community": 95,
-      "community_name": "ReleaseSignal raster logo",
+      "community_name": "Ludiqentra raster logo",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "circular radar emblem",
@@ -15854,16 +15854,16 @@
       "source_url": null
     },
     {
-      "id": "data_stitch_screenshots_logo_releasesignal_wordmark",
-      "label": "ReleaseSignal wordmark",
+      "id": "data_stitch_screenshots_logo_ludiqentra_wordmark",
+      "label": "Ludiqentra wordmark",
       "_origin": "semantic",
       "author": null,
       "captured_at": null,
       "community": 95,
-      "community_name": "ReleaseSignal raster logo",
+      "community_name": "Ludiqentra raster logo",
       "contributor": null,
       "file_type": "concept",
-      "norm_label": "releasesignal wordmark",
+      "norm_label": "ludiqentra wordmark",
       "source_file": "data/stitch/screenshots/logo.png",
       "source_location": null,
       "source_url": null
@@ -15875,7 +15875,7 @@
       "author": null,
       "captured_at": null,
       "community": 95,
-      "community_name": "ReleaseSignal raster logo",
+      "community_name": "Ludiqentra raster logo",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "white and blue brand typography",
@@ -15884,16 +15884,16 @@
       "source_url": null
     },
     {
-      "id": "data_stitch_screenshots_logo_releasesignal_raster_logo",
-      "label": "ReleaseSignal raster logo",
+      "id": "data_stitch_screenshots_logo_ludiqentra_raster_logo",
+      "label": "Ludiqentra raster logo",
       "_origin": "semantic",
       "author": null,
       "captured_at": null,
       "community": 95,
-      "community_name": "ReleaseSignal raster logo",
+      "community_name": "Ludiqentra raster logo",
       "contributor": null,
       "file_type": "document",
-      "norm_label": "releasesignal raster logo",
+      "norm_label": "ludiqentra raster logo",
       "source_file": "data/stitch/screenshots/logo.png",
       "source_location": null,
       "source_url": null
@@ -16089,7 +16089,7 @@
       "author": null,
       "captured_at": null,
       "community": 99,
-      "community_name": "ReleaseSignal logo",
+      "community_name": "Ludiqentra logo",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "blue glow palette",
@@ -16104,7 +16104,7 @@
       "author": null,
       "captured_at": null,
       "community": 99,
-      "community_name": "ReleaseSignal logo",
+      "community_name": "Ludiqentra logo",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "radar signal emblem",
@@ -16113,31 +16113,31 @@
       "source_url": null
     },
     {
-      "id": "public_logo_releasesignal_wordmark",
-      "label": "ReleaseSignal wordmark",
+      "id": "public_logo_ludiqentra_wordmark",
+      "label": "Ludiqentra wordmark",
       "_origin": "semantic",
       "author": null,
       "captured_at": null,
       "community": 99,
-      "community_name": "ReleaseSignal logo",
+      "community_name": "Ludiqentra logo",
       "contributor": null,
       "file_type": "concept",
-      "norm_label": "releasesignal wordmark",
+      "norm_label": "ludiqentra wordmark",
       "source_file": "public/logo.svg",
       "source_location": null,
       "source_url": null
     },
     {
-      "id": "public_logo_releasesignal_logo",
-      "label": "ReleaseSignal logo",
+      "id": "public_logo_ludiqentra_logo",
+      "label": "Ludiqentra logo",
       "_origin": "semantic",
       "author": null,
       "captured_at": null,
       "community": 99,
-      "community_name": "ReleaseSignal logo",
+      "community_name": "Ludiqentra logo",
       "contributor": null,
       "file_type": "image",
-      "norm_label": "releasesignal logo",
+      "norm_label": "ludiqentra logo",
       "source_file": "public/logo.svg",
       "source_location": null,
       "source_url": null
@@ -36078,7 +36078,7 @@
       "weight": 1.0
     },
     {
-      "source": "readme_releasesignal",
+      "source": "readme_ludiqentra",
       "target": "docs_discovery_document",
       "relation": "references",
       "_origin": "ast",
@@ -36089,8 +36089,8 @@
       "weight": 1.0
     },
     {
-      "source": "readme_releasesignal",
-      "target": "docs_architecture_releasesignal_architecture",
+      "source": "readme_ludiqentra",
+      "target": "docs_architecture_ludiqentra_architecture",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -36100,7 +36100,7 @@
       "weight": 1.0
     },
     {
-      "source": "readme_releasesignal",
+      "source": "readme_ludiqentra",
       "target": "docs_data_sources_provider_ownership",
       "relation": "references",
       "_origin": "ast",
@@ -36111,7 +36111,7 @@
       "weight": 1.0
     },
     {
-      "source": "readme_releasesignal",
+      "source": "readme_ludiqentra",
       "target": "docs_scoring_deterministic_scoring",
       "relation": "references",
       "_origin": "ast",
@@ -36122,7 +36122,7 @@
       "weight": 1.0
     },
     {
-      "source": "readme_releasesignal",
+      "source": "readme_ludiqentra",
       "target": "docs_api_http_api",
       "relation": "references",
       "_origin": "ast",
@@ -36133,7 +36133,7 @@
       "weight": 1.0
     },
     {
-      "source": "readme_releasesignal",
+      "source": "readme_ludiqentra",
       "target": "docs_testing_architecture_aligned_testing",
       "relation": "references",
       "_origin": "ast",
@@ -36144,7 +36144,7 @@
       "weight": 1.0
     },
     {
-      "source": "readme_releasesignal",
+      "source": "readme_ludiqentra",
       "target": "docs_demo_investor_demo_flow",
       "relation": "references",
       "_origin": "ast",
@@ -36155,7 +36155,7 @@
       "weight": 1.0
     },
     {
-      "source": "readme_releasesignal",
+      "source": "readme_ludiqentra",
       "target": "docs_collector_document",
       "relation": "references",
       "_origin": "ast",
@@ -36166,7 +36166,7 @@
       "weight": 1.0
     },
     {
-      "source": "readme_releasesignal",
+      "source": "readme_ludiqentra",
       "target": "docs_data_model_document",
       "relation": "references",
       "_origin": "ast",
@@ -36177,7 +36177,7 @@
       "weight": 1.0
     },
     {
-      "source": "readme_releasesignal",
+      "source": "readme_ludiqentra",
       "target": "docs_corpus_build_document",
       "relation": "references",
       "_origin": "ast",
@@ -36188,7 +36188,7 @@
       "weight": 1.0
     },
     {
-      "source": "readme_releasesignal",
+      "source": "readme_ludiqentra",
       "target": "docs_frontend_workflow_document",
       "relation": "references",
       "_origin": "ast",
@@ -36199,7 +36199,7 @@
       "weight": 1.0
     },
     {
-      "source": "readme_releasesignal",
+      "source": "readme_ludiqentra",
       "target": "docs_contributing_document",
       "relation": "references",
       "_origin": "ast",
@@ -36210,7 +36210,7 @@
       "weight": 1.0
     },
     {
-      "source": "readme_releasesignal",
+      "source": "readme_ludiqentra",
       "target": "docs_decisions_document",
       "relation": "references",
       "_origin": "ast",
@@ -36816,7 +36816,7 @@
       "weight": 1.0
     },
     {
-      "source": "_superdesign_design_system_releasesignal_design_system",
+      "source": "_superdesign_design_system_ludiqentra_design_system",
       "target": "_superdesign_design_system_dark_intelligence_console",
       "relation": "references",
       "_origin": "semantic",
@@ -36827,7 +36827,7 @@
       "weight": 1.0
     },
     {
-      "source": "_superdesign_design_system_releasesignal_design_system",
+      "source": "_superdesign_design_system_ludiqentra_design_system",
       "target": "_superdesign_design_system_illustrative_analysis",
       "relation": "references",
       "_origin": "semantic",
@@ -36838,7 +36838,7 @@
       "weight": 1.0
     },
     {
-      "source": "_superdesign_design_system_releasesignal_design_system",
+      "source": "_superdesign_design_system_ludiqentra_design_system",
       "target": "_superdesign_design_system_inter_body_typography",
       "relation": "references",
       "_origin": "semantic",
@@ -36849,7 +36849,7 @@
       "weight": 1.0
     },
     {
-      "source": "_superdesign_design_system_releasesignal_design_system",
+      "source": "_superdesign_design_system_ludiqentra_design_system",
       "target": "_superdesign_design_system_jetbrains_mono_evidence_typography",
       "relation": "references",
       "_origin": "semantic",
@@ -36860,7 +36860,7 @@
       "weight": 1.0
     },
     {
-      "source": "_superdesign_design_system_releasesignal_design_system",
+      "source": "_superdesign_design_system_ludiqentra_design_system",
       "target": "_superdesign_design_system_persisted_four_state_journey",
       "relation": "references",
       "_origin": "semantic",
@@ -36871,7 +36871,7 @@
       "weight": 1.0
     },
     {
-      "source": "_superdesign_design_system_releasesignal_design_system",
+      "source": "_superdesign_design_system_ludiqentra_design_system",
       "target": "_superdesign_design_system_reduced_motion",
       "relation": "references",
       "_origin": "semantic",
@@ -36882,7 +36882,7 @@
       "weight": 1.0
     },
     {
-      "source": "_superdesign_design_system_releasesignal_design_system",
+      "source": "_superdesign_design_system_ludiqentra_design_system",
       "target": "_superdesign_design_system_sora_headings",
       "relation": "references",
       "_origin": "semantic",
@@ -36893,7 +36893,7 @@
       "weight": 1.0
     },
     {
-      "source": "_superdesign_design_system_releasesignal_design_system",
+      "source": "_superdesign_design_system_ludiqentra_design_system",
       "target": "_superdesign_design_system_steam_investment_decision_support",
       "relation": "references",
       "_origin": "semantic",
@@ -36904,7 +36904,7 @@
       "weight": 1.0
     },
     {
-      "source": "_superdesign_design_system_releasesignal_design_system",
+      "source": "_superdesign_design_system_ludiqentra_design_system",
       "target": "_superdesign_design_system_visible_provenance",
       "relation": "references",
       "_origin": "semantic",
@@ -37103,7 +37103,7 @@
     },
     {
       "source": "_superdesign_init_layouts_root_application_shell",
-      "target": "_superdesign_init_layouts_releasesignal_product_header",
+      "target": "_superdesign_init_layouts_ludiqentra_product_header",
       "relation": "references",
       "_origin": "semantic",
       "confidence": "EXTRACTED",
@@ -37300,7 +37300,7 @@
       "weight": 1.0
     },
     {
-      "source": "_superdesign_init_theme_releasesignal_theme",
+      "source": "_superdesign_init_theme_ludiqentra_theme",
       "target": "_superdesign_init_theme_dark_surface_hierarchy",
       "relation": "references",
       "_origin": "semantic",
@@ -37311,7 +37311,7 @@
       "weight": 1.0
     },
     {
-      "source": "_superdesign_init_theme_releasesignal_theme",
+      "source": "_superdesign_init_theme_ludiqentra_theme",
       "target": "_superdesign_init_theme_inter",
       "relation": "references",
       "_origin": "semantic",
@@ -37322,7 +37322,7 @@
       "weight": 1.0
     },
     {
-      "source": "_superdesign_init_theme_releasesignal_theme",
+      "source": "_superdesign_init_theme_ludiqentra_theme",
       "target": "_superdesign_init_theme_jetbrains_mono",
       "relation": "references",
       "_origin": "semantic",
@@ -37333,7 +37333,7 @@
       "weight": 1.0
     },
     {
-      "source": "_superdesign_init_theme_releasesignal_theme",
+      "source": "_superdesign_init_theme_ludiqentra_theme",
       "target": "_superdesign_init_theme_primary_blue_signal",
       "relation": "references",
       "_origin": "semantic",
@@ -37344,7 +37344,7 @@
       "weight": 1.0
     },
     {
-      "source": "_superdesign_init_theme_releasesignal_theme",
+      "source": "_superdesign_init_theme_ludiqentra_theme",
       "target": "_superdesign_init_theme_responsive_layout",
       "relation": "references",
       "_origin": "semantic",
@@ -37355,7 +37355,7 @@
       "weight": 1.0
     },
     {
-      "source": "_superdesign_init_theme_releasesignal_theme",
+      "source": "_superdesign_init_theme_ludiqentra_theme",
       "target": "_superdesign_init_theme_semantic_green_amber_red",
       "relation": "references",
       "_origin": "semantic",
@@ -37366,7 +37366,7 @@
       "weight": 1.0
     },
     {
-      "source": "_superdesign_init_theme_releasesignal_theme",
+      "source": "_superdesign_init_theme_ludiqentra_theme",
       "target": "_superdesign_init_theme_sora",
       "relation": "references",
       "_origin": "semantic",
@@ -37707,7 +37707,7 @@
       "weight": 1.0
     },
     {
-      "source": "data_stitch_html_logo_releasesignal_vector_logo",
+      "source": "data_stitch_html_logo_ludiqentra_vector_logo",
       "target": "data_stitch_html_logo_blue_signal_accent",
       "relation": "references",
       "_origin": "semantic",
@@ -37718,7 +37718,7 @@
       "weight": 1.0
     },
     {
-      "source": "data_stitch_html_logo_releasesignal_vector_logo",
+      "source": "data_stitch_html_logo_ludiqentra_vector_logo",
       "target": "data_stitch_html_logo_circular_radar_emblem",
       "relation": "references",
       "_origin": "semantic",
@@ -37729,8 +37729,8 @@
       "weight": 1.0
     },
     {
-      "source": "data_stitch_html_logo_releasesignal_vector_logo",
-      "target": "data_stitch_html_logo_releasesignal_wordmark",
+      "source": "data_stitch_html_logo_ludiqentra_vector_logo",
+      "target": "data_stitch_html_logo_ludiqentra_wordmark",
       "relation": "references",
       "_origin": "semantic",
       "confidence": "EXTRACTED",
@@ -37806,7 +37806,7 @@
       "weight": 1.0
     },
     {
-      "source": "data_stitch_review_01_welcome_releasesignal_welcome_screen",
+      "source": "data_stitch_review_01_welcome_ludiqentra_welcome_screen",
       "target": "data_stitch_review_01_welcome_comparable_performance",
       "relation": "references",
       "_origin": "semantic",
@@ -37817,7 +37817,7 @@
       "weight": 1.0
     },
     {
-      "source": "data_stitch_review_01_welcome_releasesignal_welcome_screen",
+      "source": "data_stitch_review_01_welcome_ludiqentra_welcome_screen",
       "target": "data_stitch_review_01_welcome_dark_blue_gradient_layout",
       "relation": "references",
       "_origin": "semantic",
@@ -37828,7 +37828,7 @@
       "weight": 1.0
     },
     {
-      "source": "data_stitch_review_01_welcome_releasesignal_welcome_screen",
+      "source": "data_stitch_review_01_welcome_ludiqentra_welcome_screen",
       "target": "data_stitch_review_01_welcome_describe_your_game",
       "relation": "references",
       "_origin": "semantic",
@@ -37839,7 +37839,7 @@
       "weight": 1.0
     },
     {
-      "source": "data_stitch_review_01_welcome_releasesignal_welcome_screen",
+      "source": "data_stitch_review_01_welcome_ludiqentra_welcome_screen",
       "target": "data_stitch_review_01_welcome_find_true_comparables",
       "relation": "references",
       "_origin": "semantic",
@@ -37850,7 +37850,7 @@
       "weight": 1.0
     },
     {
-      "source": "data_stitch_review_01_welcome_releasesignal_welcome_screen",
+      "source": "data_stitch_review_01_welcome_ludiqentra_welcome_screen",
       "target": "data_stitch_review_01_welcome_import_steam_url",
       "relation": "references",
       "_origin": "semantic",
@@ -37861,7 +37861,7 @@
       "weight": 1.0
     },
     {
-      "source": "data_stitch_review_01_welcome_releasesignal_welcome_screen",
+      "source": "data_stitch_review_01_welcome_ludiqentra_welcome_screen",
       "target": "data_stitch_review_01_welcome_score_launch_week",
       "relation": "references",
       "_origin": "semantic",
@@ -37872,7 +37872,7 @@
       "weight": 1.0
     },
     {
-      "source": "data_stitch_review_01_welcome_releasesignal_welcome_screen",
+      "source": "data_stitch_review_01_welcome_ludiqentra_welcome_screen",
       "target": "data_stitch_review_01_welcome_start_from_scratch",
       "relation": "references",
       "_origin": "semantic",
@@ -38433,7 +38433,7 @@
       "weight": 1.0
     },
     {
-      "source": "data_stitch_screenshots_logo_releasesignal_raster_logo",
+      "source": "data_stitch_screenshots_logo_ludiqentra_raster_logo",
       "target": "data_stitch_screenshots_logo_circular_radar_emblem",
       "relation": "references",
       "_origin": "semantic",
@@ -38444,8 +38444,8 @@
       "weight": 1.0
     },
     {
-      "source": "data_stitch_screenshots_logo_releasesignal_raster_logo",
-      "target": "data_stitch_screenshots_logo_releasesignal_wordmark",
+      "source": "data_stitch_screenshots_logo_ludiqentra_raster_logo",
+      "target": "data_stitch_screenshots_logo_ludiqentra_wordmark",
       "relation": "references",
       "_origin": "semantic",
       "confidence": "EXTRACTED",
@@ -38455,7 +38455,7 @@
       "weight": 1.0
     },
     {
-      "source": "data_stitch_screenshots_logo_releasesignal_raster_logo",
+      "source": "data_stitch_screenshots_logo_ludiqentra_raster_logo",
       "target": "data_stitch_screenshots_logo_white_and_blue_brand_typography",
       "relation": "references",
       "_origin": "semantic",
@@ -38466,7 +38466,7 @@
       "weight": 1.0
     },
     {
-      "source": "data_stitch_screenshots_welcome_releasesignal_welcome_screen",
+      "source": "data_stitch_screenshots_welcome_ludiqentra_welcome_screen",
       "target": "data_stitch_screenshots_welcome_comparable_performance",
       "relation": "references",
       "_origin": "semantic",
@@ -38477,7 +38477,7 @@
       "weight": 1.0
     },
     {
-      "source": "data_stitch_screenshots_welcome_releasesignal_welcome_screen",
+      "source": "data_stitch_screenshots_welcome_ludiqentra_welcome_screen",
       "target": "data_stitch_screenshots_welcome_dark_blue_gradient_layout",
       "relation": "references",
       "_origin": "semantic",
@@ -38488,7 +38488,7 @@
       "weight": 1.0
     },
     {
-      "source": "data_stitch_screenshots_welcome_releasesignal_welcome_screen",
+      "source": "data_stitch_screenshots_welcome_ludiqentra_welcome_screen",
       "target": "data_stitch_screenshots_welcome_describe_your_game",
       "relation": "references",
       "_origin": "semantic",
@@ -38499,7 +38499,7 @@
       "weight": 1.0
     },
     {
-      "source": "data_stitch_screenshots_welcome_releasesignal_welcome_screen",
+      "source": "data_stitch_screenshots_welcome_ludiqentra_welcome_screen",
       "target": "data_stitch_screenshots_welcome_find_true_comparables",
       "relation": "references",
       "_origin": "semantic",
@@ -38510,7 +38510,7 @@
       "weight": 1.0
     },
     {
-      "source": "data_stitch_screenshots_welcome_releasesignal_welcome_screen",
+      "source": "data_stitch_screenshots_welcome_ludiqentra_welcome_screen",
       "target": "data_stitch_screenshots_welcome_import_steam_url",
       "relation": "references",
       "_origin": "semantic",
@@ -38521,7 +38521,7 @@
       "weight": 1.0
     },
     {
-      "source": "data_stitch_screenshots_welcome_releasesignal_welcome_screen",
+      "source": "data_stitch_screenshots_welcome_ludiqentra_welcome_screen",
       "target": "data_stitch_screenshots_welcome_score_launch_week",
       "relation": "references",
       "_origin": "semantic",
@@ -38532,7 +38532,7 @@
       "weight": 1.0
     },
     {
-      "source": "data_stitch_screenshots_welcome_releasesignal_welcome_screen",
+      "source": "data_stitch_screenshots_welcome_ludiqentra_welcome_screen",
       "target": "data_stitch_screenshots_welcome_start_from_scratch",
       "relation": "references",
       "_origin": "semantic",
@@ -38785,7 +38785,7 @@
       "weight": 1.0
     },
     {
-      "source": "docs_architecture_releasesignal_architecture",
+      "source": "docs_architecture_ludiqentra_architecture",
       "target": "docs_architecture_application_use_cases",
       "relation": "references",
       "_origin": "semantic",
@@ -38796,7 +38796,7 @@
       "weight": 1.0
     },
     {
-      "source": "docs_architecture_releasesignal_architecture",
+      "source": "docs_architecture_ludiqentra_architecture",
       "target": "docs_architecture_approval_gated_collection",
       "relation": "references",
       "_origin": "semantic",
@@ -38807,7 +38807,7 @@
       "weight": 1.0
     },
     {
-      "source": "docs_architecture_releasesignal_architecture",
+      "source": "docs_architecture_ludiqentra_architecture",
       "target": "docs_architecture_architecture_boundary_tests",
       "relation": "references",
       "_origin": "semantic",
@@ -38818,7 +38818,7 @@
       "weight": 1.0
     },
     {
-      "source": "docs_architecture_releasesignal_architecture",
+      "source": "docs_architecture_ludiqentra_architecture",
       "target": "docs_architecture_browser_analysis_snapshots",
       "relation": "references",
       "_origin": "semantic",
@@ -38829,7 +38829,7 @@
       "weight": 1.0
     },
     {
-      "source": "docs_architecture_releasesignal_architecture",
+      "source": "docs_architecture_ludiqentra_architecture",
       "target": "docs_architecture_domain_contracts_and_scoring",
       "relation": "references",
       "_origin": "semantic",
@@ -38840,7 +38840,7 @@
       "weight": 1.0
     },
     {
-      "source": "docs_architecture_releasesignal_architecture",
+      "source": "docs_architecture_ludiqentra_architecture",
       "target": "docs_architecture_http_route_adapters",
       "relation": "references",
       "_origin": "semantic",
@@ -38851,7 +38851,7 @@
       "weight": 1.0
     },
     {
-      "source": "docs_architecture_releasesignal_architecture",
+      "source": "docs_architecture_ludiqentra_architecture",
       "target": "docs_architecture_infrastructure_provider_adapters",
       "relation": "references",
       "_origin": "semantic",
@@ -38862,7 +38862,7 @@
       "weight": 1.0
     },
     {
-      "source": "docs_architecture_releasesignal_architecture",
+      "source": "docs_architecture_ludiqentra_architecture",
       "target": "docs_architecture_stateless_runtime",
       "relation": "references",
       "_origin": "semantic",
@@ -41161,7 +41161,7 @@
       "weight": 1.0
     },
     {
-      "source": "public_logo_releasesignal_logo",
+      "source": "public_logo_ludiqentra_logo",
       "target": "public_logo_blue_glow_palette",
       "relation": "references",
       "_origin": "semantic",
@@ -41172,7 +41172,7 @@
       "weight": 1.0
     },
     {
-      "source": "public_logo_releasesignal_logo",
+      "source": "public_logo_ludiqentra_logo",
       "target": "public_logo_radar_signal_emblem",
       "relation": "references",
       "_origin": "semantic",
@@ -41183,8 +41183,8 @@
       "weight": 1.0
     },
     {
-      "source": "public_logo_releasesignal_logo",
-      "target": "public_logo_releasesignal_wordmark",
+      "source": "public_logo_ludiqentra_logo",
+      "target": "public_logo_ludiqentra_wordmark",
       "relation": "references",
       "_origin": "semantic",
       "confidence": "EXTRACTED",
@@ -41238,7 +41238,7 @@
       "weight": 1.0
     },
     {
-      "source": "readme_releasesignal",
+      "source": "readme_ludiqentra",
       "target": "readme_26_52_week_calendar",
       "relation": "references",
       "_origin": "semantic",
@@ -41249,7 +41249,7 @@
       "weight": 1.0
     },
     {
-      "source": "readme_releasesignal",
+      "source": "readme_ludiqentra",
       "target": "readme_approval_gated_collection",
       "relation": "references",
       "_origin": "semantic",
@@ -41260,7 +41260,7 @@
       "weight": 1.0
     },
     {
-      "source": "readme_releasesignal",
+      "source": "readme_ludiqentra",
       "target": "readme_browser_localstorage",
       "relation": "references",
       "_origin": "semantic",
@@ -41271,7 +41271,7 @@
       "weight": 1.0
     },
     {
-      "source": "readme_releasesignal",
+      "source": "readme_ludiqentra",
       "target": "readme_gamalytic_estimates",
       "relation": "references",
       "_origin": "semantic",
@@ -41282,7 +41282,7 @@
       "weight": 1.0
     },
     {
-      "source": "readme_releasesignal",
+      "source": "readme_ludiqentra",
       "target": "readme_gameplay_based_comparables",
       "relation": "references",
       "_origin": "semantic",
@@ -41293,7 +41293,7 @@
       "weight": 1.0
     },
     {
-      "source": "readme_releasesignal",
+      "source": "readme_ludiqentra",
       "target": "readme_grok_description_validation",
       "relation": "references",
       "_origin": "semantic",
@@ -41304,7 +41304,7 @@
       "weight": 1.0
     },
     {
-      "source": "readme_releasesignal",
+      "source": "readme_ludiqentra",
       "target": "readme_igdb_mcp_discovery",
       "relation": "references",
       "_origin": "semantic",
@@ -41315,7 +41315,7 @@
       "weight": 1.0
     },
     {
-      "source": "readme_releasesignal",
+      "source": "readme_ludiqentra",
       "target": "readme_immutable_exports",
       "relation": "references",
       "_origin": "semantic",
@@ -41326,7 +41326,7 @@
       "weight": 1.0
     },
     {
-      "source": "readme_releasesignal",
+      "source": "readme_ludiqentra",
       "target": "readme_launch_timing_intelligence",
       "relation": "references",
       "_origin": "semantic",
@@ -41337,7 +41337,7 @@
       "weight": 1.0
     },
     {
-      "source": "readme_releasesignal",
+      "source": "readme_ludiqentra",
       "target": "readme_steam_facts",
       "relation": "references",
       "_origin": "semantic",
@@ -41348,7 +41348,7 @@
       "weight": 1.0
     },
     {
-      "source": "readme_releasesignal",
+      "source": "readme_ludiqentra",
       "target": "readme_thirty_minute_previews",
       "relation": "references",
       "_origin": "semantic",

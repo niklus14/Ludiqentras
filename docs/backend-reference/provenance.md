@@ -7,7 +7,7 @@ Numeric values use the shared `Sourced<T>` shape:
 ```ts
 {
   value: number | null;
-  source: "steam" | "igdb" | "gamalytic" | "releasesignal" | "user";
+  source: "steam" | "igdb" | "gamalytic" | "ludiqentra" | "user";
   estimated: boolean;
   method?: string;
 }

@@ -1,6 +1,6 @@
 # Data sources
 
-ReleaseSignal separates provider facts from ReleaseSignal estimates. Missing source values remain unavailable; they are not replaced with zero or an assumed price.
+Ludiqentra separates provider facts from Ludiqentra estimates. Missing source values remain unavailable; they are not replaced with zero or an assumed price.
 
 | Source | Responsibility | Runtime behavior |
 | --- | --- | --- |

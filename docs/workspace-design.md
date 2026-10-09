@@ -4,7 +4,7 @@
 
 A Steam game team moves from a written concept to approved comparables to a launch decision. Keep the public homepage intact. Give the product a persistent workspace with three real sequential stages, visible evidence, and an obvious next action.
 
-The direction combines the Awesome Design Skills `sleek` spacing and hierarchy rules with `frontend-design` guidance. Its reference light palette is adapted to ReleaseSignal’s established dark identity. The defining product element is the selectable release-week ledger, rather than decorative dashboard tiles.
+The direction combines the Awesome Design Skills `sleek` spacing and hierarchy rules with `frontend-design` guidance. Its reference light palette is adapted to Ludiqentra’s established dark identity. The defining product element is the selectable release-week ledger, rather than decorative dashboard tiles.
 
 ## Design tokens and foundations
 

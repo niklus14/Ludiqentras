@@ -238,7 +238,7 @@ Why not nothing: revenue context is the reason competitor cards are useful at al
 
 Why not unlabelled: passing off our heuristic as third-party data is the one thing that would genuinely damage the product's credibility if noticed.
 
-**Consequences.** The label reads `ⓘ ReleaseSignal estimate · Boxleiter ×32` with the formula in the tooltip. Compounding an estimate on an estimate is acceptable when it is visible.
+**Consequences.** The label reads `ⓘ Ludiqentra estimate · Boxleiter ×32` with the formula in the tooltip. Compounding an estimate on an estimate is acceptable when it is visible.
 
 There is an argument this is *better* than a black-box third-party number: a stated method with a stated error band can be challenged and corrected. An opaque figure can only be believed or not.
 

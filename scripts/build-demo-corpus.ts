@@ -12,7 +12,7 @@ import type { NormalizedGame, Sourced, CorpusMeta, GameMode, Perspective, Platfo
 const OUT = process.env.CORPUS_PATH ?? "./data";
 const DIMS = 16; // tiny dims since we use tag matching, not real embeddings
 
-function s<T>(value: T, source: "steam" | "igdb" | "gamalytic" | "releasesignal", estimated = false): Sourced<T> {
+function s<T>(value: T, source: "steam" | "igdb" | "gamalytic" | "ludiqentra", estimated = false): Sourced<T> {
   return { value, source, estimated };
 }
 

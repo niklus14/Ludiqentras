@@ -118,7 +118,7 @@ export function WorkspaceShell({
         </div>
         <div className="ws-content">{children}</div>
         <footer className="ws-footer">
-          <span>ReleaseSignal</span>
+          <span>Ludiqentra</span>
           <span>Built for the decisions before launch.</span>
         </footer>
       </div>

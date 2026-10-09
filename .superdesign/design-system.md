@@ -1,14 +1,14 @@
-# ReleaseSignal design system
+# Ludiqentra design system
 
 ## Product and audience
 
-ReleaseSignal is a decision-support product for Steam studios, publishers, and investors. It turns a plain-language game concept into a reviewed comparable cohort, live commercial evidence, and a launch-week recommendation. The interface must help a business user answer three questions quickly: what is the opportunity, how strong is the evidence, and what decision should we make?
+Ludiqentra is a decision-support product for Steam studios, publishers, and investors. It turns a plain-language game concept into a reviewed comparable cohort, live commercial evidence, and a launch-week recommendation. The interface must help a business user answer three questions quickly: what is the opportunity, how strong is the evidence, and what decision should we make?
 
 The experience is one persisted route with four states: landing, concept validation, comparable approval, and analytics. The landing page explains the investment thesis and previews real output shapes. The working flow prioritizes confidence, provenance, and reversibility. Never expose model or provider brand names in customer-facing copy; describe the operation being performed.
 
 ## Visual direction
 
-Use a precise dark intelligence-console aesthetic with calm editorial spacing. Take structural cues from Neural Noir: a subtle data-grid atmosphere, luminous connections, layered translucent surfaces, and deliberate entrance motion. Keep ReleaseSignal's own blue identity and sans-serif typography. The product should feel suitable for an investment committee, not like a gaming storefront or a generic AI landing page.
+Use a precise dark intelligence-console aesthetic with calm editorial spacing. Take structural cues from Neural Noir: a subtle data-grid atmosphere, luminous connections, layered translucent surfaces, and deliberate entrance motion. Keep Ludiqentra's own blue identity and sans-serif typography. The product should feel suitable for an investment committee, not like a gaming storefront or a generic AI landing page.
 
 Avoid decorative game art, loud neon gradients, gold/bronze accents, serif fonts, excessive glass blur, fake live-data claims, and dense sci-fi decoration. Every visual flourish must support hierarchy or explain data movement.
 
@@ -31,7 +31,7 @@ Avoid decorative game art, loud neon gradients, gold/bronze accents, serif fonts
 
 ## Layout and structure
 
-- Header: sticky, 64–72px, translucent dark surface, real ReleaseSignal logo on the left, compact anchor links on desktop, primary “Analyze a game” action on the right.
+- Header: sticky, 64–72px, translucent dark surface, real Ludiqentra logo on the left, compact anchor links on desktop, primary “Analyze a game” action on the right.
 - Landing hero: asymmetric two-column composition. Left side carries the investment proposition and actions. Right side previews the output dashboard with a verdict, revenue range, weekly risk chart, and evidence state.
 - Landing sections: outcome strip; three-step evidence pipeline; investor-oriented decision dashboard preview; scenario benefits; final CTA; restrained footer.
 - Product flow: centered 1200–1280px workspace. Preserve the three navigable phases. Use a clear page title, context line, and one dominant action at each stage.
@@ -44,7 +44,7 @@ Avoid decorative game art, loud neon gradients, gold/bronze accents, serif fonts
 - Cards: 16–20px radius, low-opacity border, dark layered background. Use blur only on overlapping hero previews and the sticky header. Dashboard cards remain crisp.
 - Chips: small rounded rectangles, never oversized pills. Required taxonomy uses soft blue; optional taxonomy uses neutral borders.
 - Charts: 2px lines, sparse horizontal grids, direct labels, compact tooltips, and semantic blue/green/amber/red. Avoid 3D, pie charts, and fake precision.
-- Evidence: source and estimate status always remain visible. Use neutral customer-facing labels such as “Steam”, “Market estimate”, and “ReleaseSignal model”.
+- Evidence: source and estimate status always remain visible. Use neutral customer-facing labels such as “Steam”, “Market estimate”, and “Ludiqentra model”.
 - Empty and unavailable values: show “Unavailable” with a concise reason. Never turn missing evidence into zero.
 
 ## Motion

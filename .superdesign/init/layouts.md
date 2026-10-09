@@ -9,7 +9,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "ReleaseSignal — Launch Timing Intelligence for Steam",
+  title: "Ludiqentra — Launch Timing Intelligence for Steam",
   description: "Find out who you're actually launching against.",
 };
 

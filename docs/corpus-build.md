@@ -85,7 +85,7 @@ def merge_revenue(steam, igdb, gamalytic, reviews, price):
         copies = reviews['total'] * multiplier_for_price(price)
         rev = copies * price * 0.70 * (1 - REFUND_RATE) * (1 - AVG_DISCOUNT)
         return sourced(
-            round(rev), 'releasesignal', estimated=True,
+            round(rev), 'ludiqentra', estimated=True,
             method=f'boxleiter ×{multiplier_for_price(price)}'
         )
 

@@ -1,6 +1,6 @@
 # Page dependency trees
 
-## `/` — ReleaseSignal application
+## `/` — Ludiqentra application
 
 Entry: `app/page.tsx`
 

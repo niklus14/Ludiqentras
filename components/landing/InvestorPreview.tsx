@@ -56,7 +56,7 @@ export function InvestorPreview() {
   const areaPath = `${path} L${points.at(-1)?.x ?? width} ${height - paddingY} L${points[0].x} ${height - paddingY} Z`;
 
   return (
-    <aside className="landing-preview relative rounded-[20px] border border-primary/25 bg-surface-container-low/95 p-4 shadow-[0_24px_80px_rgba(0,0,0,0.38)] sm:p-5" aria-label="Illustrative ReleaseSignal analysis">
+    <aside className="landing-preview relative rounded-[20px] border border-primary/25 bg-surface-container-low/95 p-4 shadow-[0_24px_80px_rgba(0,0,0,0.38)] sm:p-5" aria-label="Illustrative Ludiqentra analysis">
       <div className="flex flex-col justify-between gap-4 border-b border-outline-variant/35 pb-4 sm:flex-row sm:items-start">
         <div>
           <p className="font-mono text-[9px] font-semibold uppercase tracking-[0.14em] text-secondary">Illustrative analysis</p>

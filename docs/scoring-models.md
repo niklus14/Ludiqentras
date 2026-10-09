@@ -208,7 +208,7 @@ Estimated first-year gross revenue
   Base          $230,000
   Upside        $610,000
 
-  MEDIUM confidence · 12 comparables · ReleaseSignal model
+  MEDIUM confidence · 12 comparables · Ludiqentra model
 ```
 
 Never `$273,841`. Two significant figures, always a range, always the comparable count visible. The number of comparables is the honest confidence signal, and putting it on screen pre-empts the obvious challenge.

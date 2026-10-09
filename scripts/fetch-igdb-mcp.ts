@@ -159,8 +159,8 @@ function normalizeGame(
     release: { date: releaseDate, isReleased: true, isEarlyAccess: false },
     commercial: {
       priceUsd: sourced(null, 'steam', false),
-      estimatedCopiesSold: sourced(null, 'releasesignal', true, 'boxleiter x32'),
-      estimatedRevenueUsd: sourced(null, 'releasesignal', true, 'boxleiter x32'),
+      estimatedCopiesSold: sourced(null, 'ludiqentra', true, 'boxleiter x32'),
+      estimatedRevenueUsd: sourced(null, 'ludiqentra', true, 'boxleiter x32'),
     },
     reviews: {
       total: sourced(null, 'steam', false),
@@ -175,7 +175,7 @@ function normalizeGame(
 // ── Main ───────────────────────────────────────────────────────────
 
 async function main() {
-  console.log('=== ReleaseSignal corpus builder (IGDB MCP) ===\n');
+  console.log('=== Ludiqentra corpus builder (IGDB MCP) ===\n');
 
   console.log('Connecting to IGDB MCP server...');
   await connectIgdb();

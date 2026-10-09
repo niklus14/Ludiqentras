@@ -160,8 +160,8 @@ function normalizeApp(details: AppDetails, reviews: { total: number; positive: n
     },
     commercial: {
       priceUsd: sourced(price, 'steam'),
-      estimatedCopiesSold: sourced(estCopies, 'releasesignal', true, `boxleiter x${mult}`),
-      estimatedRevenueUsd: sourced(estRevenue, 'releasesignal', true, `boxleiter x${mult}`),
+      estimatedCopiesSold: sourced(estCopies, 'ludiqentra', true, `boxleiter x${mult}`),
+      estimatedRevenueUsd: sourced(estRevenue, 'ludiqentra', true, `boxleiter x${mult}`),
     },
     reviews: {
       total: sourced(total, 'steam'),
@@ -176,7 +176,7 @@ function normalizeApp(details: AppDetails, reviews: { total: number; positive: n
 // ── Main ───────────────────────────────────────────────────────────
 
 async function main() {
-  console.log('=== ReleaseSignal corpus builder (Steam) ===\n');
+  console.log('=== Ludiqentra corpus builder (Steam) ===\n');
 
   // Step 1: Get catalog
   const catalog = await fetchCatalog();

@@ -22,7 +22,7 @@ The rule in one sentence: **Steam tells you what is true on Steam. IGDB tells yo
 | Steam user tags | Steam store page | — | `steam` |
 | Genres | IGDB | Steam `genres` | `igdb` |
 | Themes | IGDB | — | `igdb` |
-| Keywords / mechanics | IGDB `keywords` | LLM extraction | `igdb` / `releasesignal` |
+| Keywords / mechanics | IGDB `keywords` | LLM extraction | `igdb` / `ludiqentra` |
 | Game modes | IGDB | — | `igdb` |
 | Player perspective | IGDB | — | `igdb` |
 | Developer / publisher | Steam | IGDB `involved_companies` | `steam` |
@@ -31,16 +31,16 @@ The rule in one sentence: **Steam tells you what is true on Steam. IGDB tells yo
 | Review counts | Steam `appreviews` | Gamalytic | `steam` |
 | Positive ratio | computed from Steam | — | `steam` |
 | Review text sample | Steam `appreviews` | — | `steam` |
-| Estimated copies sold | Gamalytic | our Boxleiter estimator | `gamalytic` / `releasesignal` |
-| Estimated revenue | Gamalytic | our estimator | `gamalytic` / `releasesignal` |
+| Estimated copies sold | Gamalytic | our Boxleiter estimator | `gamalytic` / `ludiqentra` |
+| Estimated revenue | Gamalytic | our estimator | `gamalytic` / `ludiqentra` |
 | Peak CCU history | Gamalytic | — | `gamalytic` |
 | Wishlist insights | Gamalytic | — | `gamalytic` |
 | Upcoming release dates | Steam upcoming pages | IGDB `first_release_date` future | `steam` |
 | Follower counts (upcoming) | SteamDB-style scrape / Steam | — | `steam` |
-| **Similarity score** | **us** | — | `releasesignal` |
-| **Saturation** | **us** | — | `releasesignal` |
-| **Revenue forecast** | **us** (over Gamalytic cohorts) | — | `releasesignal` |
-| **Release risk** | **us** | — | `releasesignal` |
+| **Similarity score** | **us** | — | `ludiqentra` |
+| **Saturation** | **us** | — | `ludiqentra` |
+| **Revenue forecast** | **us** (over Gamalytic cohorts) | — | `ludiqentra` |
+| **Release risk** | **us** | — | `ludiqentra` |
 
 The bottom four rows are the product. Everything above them is input. If a judge asks what we built versus what we aggregated, that line in the table is the answer.
 
@@ -210,7 +210,7 @@ The `0.70` is Valve's cut. The multiplier is the review-to-owner ratio, which is
 | $15–$30 | 32 |
 | >$30 | 25 |
 
-This is a rough public heuristic and we present it as one. The UI labels it `ⓘ ReleaseSignal estimate · Boxleiter ×32` and the tooltip shows the formula. A visible method with a stated error band is more defensible under questioning than an opaque third-party number, so this fallback is not purely a downgrade.
+This is a rough public heuristic and we present it as one. The UI labels it `ⓘ Ludiqentra estimate · Boxleiter ×32` and the tooltip shows the formula. A visible method with a stated error band is more defensible under questioning than an opaque third-party number, so this fallback is not purely a downgrade.
 
 ---
 
@@ -221,7 +221,7 @@ Non-negotiable, because the whole credibility story rests on them.
 1. **Every rendered number carries a source.** No exceptions, including zero and null.
 2. **Never blend sources into one number.** If Steam and Gamalytic disagree on price, show Steam and note the discrepancy. Do not average.
 3. **`estimated: true` for anything modelled.** Including our own outputs. Especially our own outputs.
-4. **Our predictions say `releasesignal` and carry a `method` string.** Never `steam`, never unlabelled.
+4. **Our predictions say `ludiqentra` and carry a `method` string.** Never `steam`, never unlabelled.
 5. **Ranges, not points.** Revenue is conservative/base/upside. `$273,841` is a lie with four significant figures of confidence we do not have.
 6. **Missing is a state, not a zero.** `{ value: null, source: 'gamalytic', estimated: true }` renders as an em-dash with a tooltip, not `$0`.
 

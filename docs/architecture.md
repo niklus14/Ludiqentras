@@ -1,6 +1,6 @@
-# ReleaseSignal architecture
+# Ludiqentra architecture
 
-ReleaseSignal is a stateless, approval-gated market intelligence application. Runtime requests collect current provider data and return structured results without persisting game records.
+Ludiqentra is a stateless, approval-gated market intelligence application. Runtime requests collect current provider data and return structured results without persisting game records.
 
 ## Dependency direction
 

@@ -9,7 +9,7 @@ const sora = Sora({ subsets: ["latin"], variable: "--font-sora", display: "swap"
 const jetbrainsMono = JetBrains_Mono({ subsets: ["latin"], variable: "--font-jetbrains-mono", display: "swap" });
 
 export const metadata: Metadata = {
-  title: "ReleaseSignal — Launch Timing Intelligence for Steam",
+  title: "Ludiqentra — Launch Timing Intelligence for Steam",
   description: "AI-powered market analysis for indie game developers. Turn your game concept into data-backed launch decisions.",
 };
 
@@ -20,8 +20,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <header className="sticky top-0 z-40 h-14 shrink-0 border-b border-outline-variant/20 bg-background/95 backdrop-blur-xl">
           <div className="mx-auto flex h-full w-full max-w-[1320px] items-center justify-between px-6">
             <div className="flex items-center gap-8">
-              <Link href="/" aria-label="ReleaseSignal home" className="flex items-center gap-2">
-                <Image src="/logo.svg" alt="ReleaseSignal" width={200} height={48} priority className="h-6 w-auto" />
+              <Link href="/" aria-label="Ludiqentra home" className="flex items-center gap-2">
+                <Image src="/logo.svg" alt="Ludiqentra" width={200} height={48} priority className="h-6 w-auto" />
               </Link>
               <nav className="hidden items-center gap-6 md:flex">
                 <span className="text-[13px] text-on-surface-variant hover:text-on-surface cursor-pointer transition-colors">Product</span>
@@ -39,7 +39,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <footer className="border-t border-outline-variant/15 py-8 mt-auto">
           <div className="mx-auto max-w-[1320px] px-6 flex flex-col md:flex-row items-center justify-between gap-4">
             <div className="flex items-center gap-2">
-              <Image src="/logo.svg" alt="ReleaseSignal" width={120} height={30} className="h-4 w-auto opacity-50" />
+              <Image src="/logo.svg" alt="Ludiqentra" width={120} height={30} className="h-4 w-auto opacity-50" />
               <span className="text-[12px] text-on-surface-variant/50">Built by Team Nebula for a better game development ecosystem.</span>
             </div>
             <div className="flex items-center gap-6 text-[12px] text-on-surface-variant/50">

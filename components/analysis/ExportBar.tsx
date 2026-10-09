@@ -25,7 +25,7 @@ export function ExportBar({ snapshot }: { snapshot: Snapshot }) {
       const url = URL.createObjectURL(blob);
       const link = document.createElement("a");
       link.href = url;
-      link.download = `releasesignal-${snapshot.snapshotId}.json`;
+      link.download = `ludiqentra-${snapshot.snapshotId}.json`;
       link.click();
       window.setTimeout(() => URL.revokeObjectURL(url), 0);
     } catch (exportError) {

@@ -1,4 +1,4 @@
-// Domain model shared across ReleaseSignal use cases.
+// Domain model shared across Ludiqentra use cases.
 
 // ── Provenance primitives ──────────────────────────────────────────
 
@@ -10,7 +10,7 @@ export type Source =
   | 'steam'
   | 'igdb'
   | 'gamalytic'
-  | 'releasesignal'
+  | 'ludiqentra'
   | 'user';
 
 /**

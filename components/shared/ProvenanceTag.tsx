@@ -7,7 +7,7 @@ export function ProvenanceTag<T>({ sourced }: { sourced: Sourced<T> }) {
     steam: "text-blue-500",
     igdb: "text-purple-500",
     gamalytic: "text-green-500",
-    releasesignal: "text-amber-500",
+    ludiqentra: "text-amber-500",
     user: "text-zinc-400",
   }[sourced.source];
 

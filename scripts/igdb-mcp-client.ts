@@ -24,7 +24,7 @@ export async function connectIgdb(): Promise<Client> {
   });
 
   client = new Client(
-    { name: 'releasesignal-corpus-builder', version: '1.0.0' },
+    { name: 'ludiqentra-corpus-builder', version: '1.0.0' },
     { capabilities: {} },
   );
 

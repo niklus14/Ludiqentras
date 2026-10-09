@@ -5,7 +5,7 @@ export function Hero({ onStart, onImport }: { onStart: () => void; onImport: () 
     <div className="flex flex-col flex-1 items-center justify-center px-4">
       <main className="max-w-2xl w-full text-center space-y-8 py-24">
         <div className="space-y-2">
-          <h1 className="text-4xl font-bold tracking-tight">ReleaseSignal</h1>
+          <h1 className="text-4xl font-bold tracking-tight">Ludiqentra</h1>
           <p className="text-lg text-zinc-500 dark:text-zinc-400">
             Launch-timing intelligence for Steam developers.
           </p>

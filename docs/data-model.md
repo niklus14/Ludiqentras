@@ -15,7 +15,7 @@ export type Source =
   | 'steam'        // factual, from Steam's own endpoints
   | 'igdb'         // structured metadata
   | 'gamalytic'    // third-party commercial estimate
-  | 'releasesignal'// our own model
+  | 'ludiqentra'// our own model
   | 'user';        // the user typed it
 
 export type Sourced<T> = {
@@ -23,7 +23,7 @@ export type Sourced<T> = {
   source: Source;
   /** true if the number is modelled rather than observed */
   estimated: boolean;
-  /** only set when source === 'releasesignal' */
+  /** only set when source === 'ludiqentra' */
   method?: string;
 };
 ```
