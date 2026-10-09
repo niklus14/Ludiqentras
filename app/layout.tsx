@@ -40,7 +40,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <div className="mx-auto max-w-[1320px] px-6 flex flex-col md:flex-row items-center justify-between gap-4">
             <div className="flex items-center gap-2">
               <Image src="/logo.svg" alt="Ludiqentra" width={120} height={30} className="h-4 w-auto opacity-50" />
-              <span className="text-[12px] text-on-surface-variant/50">Built by Team Nebula for a better game development ecosystem.</span>
+              <span className="text-[12px] text-on-surface-variant/50">Game market intelligence for developers.</span>
             </div>
             <div className="flex items-center gap-6 text-[12px] text-on-surface-variant/50">
               <span className="hover:text-on-surface-variant cursor-pointer transition-colors">Product</span>
