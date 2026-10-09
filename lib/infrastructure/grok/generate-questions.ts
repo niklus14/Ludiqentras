@@ -6,6 +6,7 @@
  */
 
 import type { GameConcept, ConceptField } from "@/lib/domain/types";
+import { grokModelId } from './config';
 
 const GROK_API_URL = "https://api.x.ai/v1/chat/completions";
 
@@ -66,7 +67,7 @@ export async function generateQuestions(
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        model: process.env.XAI_MODEL?.trim() || "grok-3-mini-fast",
+        model: grokModelId(),
         messages: [
           { role: "system", content: SYSTEM_PROMPT },
           { role: "user", content: buildUserPrompt(concept) },

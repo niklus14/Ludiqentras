@@ -5,8 +5,9 @@ import { z } from 'zod';
 import { DescriptionValidationSchema, DiscoveryError, RankingSchema,
   type Candidate, type DescriptionValidation } from '@/lib/domain/schemas';
 import { CANONICAL_TAGS } from '@/lib/domain/tag-vocabulary';
+import { grokModelId } from './config';
 
-export const grokModelId = () => process.env.XAI_MODEL?.trim() || 'grok-4.6';
+export { grokModelId } from './config';
 /**
  * Output budgets are per call and deliberately have no default.
  *

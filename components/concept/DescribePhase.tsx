@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import {
   ArrowRight,
   BrainCircuit,
@@ -193,6 +193,28 @@ export default function DescribePhase({
 }: Props) {
   const [genreInput, setGenreInput] = useState("");
   const [answers, setAnswers] = useState<Record<string, string>>({});
+  const reviewRef = useRef<HTMLDivElement>(null);
+  const questionsRef = useRef<HTMLElement>(null);
+  const errorRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (stage !== "idle") return;
+    const target = error
+      ? errorRef.current
+      : candidates.length
+        ? reviewRef.current
+        : questions.length
+          ? questionsRef.current
+          : null;
+    if (!target) return;
+    target.focus({ preventScroll: true });
+    target.scrollIntoView({
+      block: "start",
+      behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches
+        ? "instant"
+        : "smooth",
+    });
+  }, [candidates, questions, stage, error]);
   const busy = stage !== "idle";
   const addGenre = (value: string) => {
     const tag = value.trim();
@@ -236,7 +258,12 @@ export default function DescribePhase({
         </span>
       </header>
       {error ? (
-        <div role="alert" className="ws-alert">
+        <div
+          ref={errorRef}
+          tabIndex={-1}
+          role="alert"
+          className="ws-alert scroll-mt-20"
+        >
           <CircleHelp size={17} className="shrink-0 mt-0.5" />
           {error}
         </div>
@@ -300,7 +327,12 @@ For example: A four-player horror game about scavenging abandoned orbital statio
             />
           ) : null}
           {questions.length ? (
-            <section className="ws-panel">
+            <section
+              ref={questionsRef}
+              tabIndex={-1}
+              aria-label="Clarifying questions"
+              className="ws-panel scroll-mt-20"
+            >
               <div className="ws-panel-head">
                 <div>
                   <h2 className="flex items-center gap-2">
@@ -421,14 +453,22 @@ For example: A four-player horror game about scavenging abandoned orbital statio
         </div>
         <aside className="ws-stack">
           {candidates.length ? (
-            <CandidateReview
-              candidates={candidates}
-              selectedSteamAppIds={selectedSteamAppIds}
-              collecting={stage === "collecting"}
-              onToggle={onToggleCandidate}
-              onSelectAll={onSelectAllCandidates}
-              onApprove={onApprove}
-            />
+            <div
+              ref={reviewRef}
+              tabIndex={-1}
+              role="region"
+              aria-label="Comparable games to review"
+              className="scroll-mt-20"
+            >
+              <CandidateReview
+                candidates={candidates}
+                selectedSteamAppIds={selectedSteamAppIds}
+                collecting={stage === "collecting"}
+                onToggle={onToggleCandidate}
+                onSelectAll={onSelectAllCandidates}
+                onApprove={onApprove}
+              />
+            </div>
           ) : hasCollectedResults ? (
             <section className="ws-panel">
               <div className="ws-empty">
